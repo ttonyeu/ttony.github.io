@@ -13,7 +13,7 @@ margin-right: 25%;}
 body {
 font-family: helvetica, sans-serif;
 font-weight: 500;
-line-height: 2;}
+line-height: 1.75;}
 
 /* h2 and h3 are tags used for the titles of your webpage; h3 should be smaller than h2 (there is also a biggest one, h1, that I don't use) */
 h1 {
