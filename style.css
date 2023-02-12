@@ -15,9 +15,7 @@ font-family: helvetica, sans-serif;
 font-weight: 500;
 line-height: 1.75;
 height: 100vh; 
-height: -webkit-fill-available; 
-min-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-min-height: -webkit-fill-available; }
+-webkit-text-size-adjust: 100%; }
 
 /* h2 and h3 are tags used for the titles of your webpage; h3 should be smaller than h2 (there is also a biggest one, h1, that I don't use) */
 h1 {
