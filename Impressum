@@ -2,4 +2,23 @@ layout: page
 title: "Impressum"
 permalink: /impressum
 
+<html>
+
+    <head>
+<!-- This asks your browser for the size of the window, it's necessary to write an adaptive .css code -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<title>Thomas Tony</title>
+    </head>
+    <body bgcolor=#F2F3F4>
+<!-- this loads MathJax, so you can display math with LaTeX on your webpage; it has to be loaded inside <body> -->
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <div id="container">
+      	<base target="_blank">
+      	
+      	
+<!--- you can include a square-shaped picture in your folder, named 'pic.jpg', and it will load as a round picture on your webpage; if you don't like, just remove the next line -->
 Test
+
+    </body>
+</html>
