@@ -4,9 +4,9 @@ html { font-size: 2vw; }
 /* This defines the big container for all content. */
 #container {
 margin-top: 30px;
-margin-left: 25%;
+margin-left: 28%;
 text-align: justify;
-margin-right: 25%;}
+margin-right: 28%;}
 
 /* This defines some general information about the webpage, i.e. the font. */
 
@@ -161,10 +161,10 @@ display: none;
 
 
 @media all and (min-width:2001px)                       { html { font-size: 17px; } Footer{ font-size:15px; }}
-@media all and (min-width:1701px) and (max-width:2000px){ html { font-size: 17px; } Footer{ font-size:15px; } #container {margin-left: 20%; margin-right: 20%;}}
-@media all and (min-width:1501px) and (max-width:1700px){ html { font-size: 17px; } Footer{ font-size:15px; } #container {margin-left: 15%; margin-right: 15%;}}
-@media all and (min-width:1151px) and (max-width:1500px){ html { font-size: 16px; } Footer{ font-size:14px; } #container {margin-left: 10%; margin-right: 10%;}}
-@media all and (min-width:701px)  and (max-width:1150px){ html { font-size: 16px; } Footer{ font-size:14px; } #container {margin-left: 5%; margin-right: 5%;}}
+@media all and (min-width:1701px) and (max-width:2000px){ html { font-size: 17px; } Footer{ font-size:15px; } #container {margin-left: 22%; margin-right: 22%;}}
+@media all and (min-width:1501px) and (max-width:1700px){ html { font-size: 17px; } Footer{ font-size:15px; } #container {margin-left: 19%; margin-right: 19%;}}
+@media all and (min-width:1151px) and (max-width:1500px){ html { font-size: 16px; } Footer{ font-size:14px; } #container {margin-left: 16%; margin-right: 16%;}}
+@media all and (min-width:701px)  and (max-width:1150px){ html { font-size: 16px; } Footer{ font-size:14px; } #container {margin-left: 7%; margin-right: 7%;}}
 @media all and (min-width:521px)  and (max-width:700px) { html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 5%; margin-right: 5%;}}
 @media all and (max-width:520px)                        { html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 3%; margin-right: 3%;}}
 
