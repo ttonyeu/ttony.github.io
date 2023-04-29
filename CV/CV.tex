@@ -1,0 +1,84 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com), 2020-2021 moderncv maintainers (github.com/moderncv).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt, colorlinks, sans]{moderncv}
+\newcommand{\red}{\textcolor{orange}} %Achtung, nochmal draufschauen
+
+\input{1.Praeambel} %Präambel: Packete und alle Definitionen 
+\input{2.Allgemeine Eingaben.tex} %Allgemeine Angaben, Einstellungen, Persönliche Daten,...
+\input{3.Praeambel} %Alles Kurz vor begin Dokument
+
+\begin{document}
+\hypersetup{colorlinks=false, urlcolor=colorLink}
+
+\makecvtitle
+\vspace{-3\baselineskip}
+%\setlength{\parskip}{0.1cm}
+
+\vfill \section{Education} %Academic degrees
+\cventry{2022 -- present}{PhD in Mathematics (Dr. rer. nat.)}{University of Münster}{}{}{\textcolor{color1}{\textbullet} \normalsize advisor: \href{https://www.uni-muenster.de/FB10/Service/show_perspage.shtml?id=1215}{R. Zeidler}}
+\cventry{2019 -- 2022}{Master of Science in Mathematics}{University of Freiburg}{}{}{}
+\cventry{2013 -- 2019}{First State Exam in Mathematics and Physics (teaching degree)}{University of Freiburg}{}{}{}
+
+\vfill \section{Scholarships, grants and awards}
+\cventry{2022 -- present}{Doctoral position founded by the \href{https://www.uni-muenster.de/MathematicsMuenster/de/}{Cluster of Excellence Mathematics Münster}}{}{}{}{}
+\cventry{2020 -- 2021}{Deutschlandstipendium}{University of Freiburg}{}{}{}
+\cventry{2013}{DMV-Abiturpreis}{Deutsche Mathematiker-Vereinigung}{}{}{}
+
+\vfill \section{Contributed talks (selection)}
+\cventry{01/2023}{\textit{An Index Theorem for End-Periodic Dirac Operators}}{Arbeitsgruppenseminar Tuschmann}{Karlsruhe Institute of Technology}{}{} 
+\cventry{11/2022}{\textit{A-linear Dirac Operators and the Higher Index}}{Seminar on Higher Index Theory}{University of Münster}{}{}
+
+\vfill \section{Conferences, workshops and research schools} 
+%\cventry{08/2023}{Curvature and Global Shape \href{https://wwuindico.uni-muenster.de/event/1652/}{\footnotesize\faExternalLink}}{Workshop}{Cluster of Excellence Mathematics Münster}{}{}
+%\cventry{07/2023}{Geometric Flows and Applications \href{https://www.icms.org.uk/workshops/2023/geometric-flows-and-applications}{\footnotesize\faExternalLink}}{Workshop}{International Centre for Mathematical Sciences}{Edinburgh}{}	
+%\cventry{07/2023}{BIGW IV: Geometric flows and related topics \href{https://danielplatt.github.io/bigw/}{\footnotesize\faExternalLink}}{Workshop}{}{Inverness}{}	
+\cventry{04/2023}{\textit{Higher Structures in Geometry and Mathematical Physics} \href{https://conferences.cirm-math.fr/2697.html}{\footnotesize\faExternalLink}}{Research school}{Centre International de Rencontres Mathématiques}{Marseille}{}
+
+\vfill \section{Teaching experience} \setlength{\hintscolumnwidth}{2.5cm}
+
+\subsection{University of Münster }
+\cventry{Summer 2023}{\textit{Differential Equations}}{Tutor}{given by \href{https://www.uni-muenster.de/IVV5WS/WebHop/user/laat/}{T. de Laat}}{}{}
+
+\subsection{University of Freiburg (as a tutor) }
+\cventry{2015 -- 2022}{\textit{Linear Algebra I} and \textit{II} (2x), \textit{Analysis I} and \textit{II}, \textit{Multiple Integration} (teaching degree), \textit{Complex Analysis}, \textit{Differential Geometry}}{}{}{}{}
+
+\subsection{Extramural teaching }
+\cventry{2016 - 2022}{Learn coaching}{\href{https://lernteam.de/}{Das Lernteam}}{}{}{}
+\cventry{2016 - 2020}{Preparation for the General Certificate of Education in mathematics}{\href{https://abiturma.de/}{Abiturma}}{}{}{}
+
+\vfill \section{Language skills}
+\cvitemwithcomment{}{German (native), English (B2 in parts C1), French (B1)}{}{}{}{}
+
+\vfill \section{Technical skills}
+\cvitemwithcomment{}{Latex, Python, Linux}{}{}{}{}
+
+\nocite{*}
+\printbibliography[title={Theses}, type=misc]
+
+%\vfill \section{List of publications}
+
+%\nocite{*}
+%\vfill \printbibliography[title={Articles}, type=article]
+%\vfill \printbibliography[title={Preprints}, type=unpublished]
+%\vfill \printbibliography[title={Theses}, type=misc, heading=subbibliography]
+
+%\vspace{0cm} 
+%\hspace{0.15cm} \includegraphics[width=0.3\textwidth]{Unterschrift.png} \\
+
+%\vspace{-1.3cm}
+%\begin{tabular}{lp{2em}l}
+%\hspace{7cm} \\ \cline{1-1}\cline{3-3}
+%\end{tabular}
+
+%\vspace{0.2cm}
+%Münster, \today 
+
+%\label{lastpage}
+\end{document}
+

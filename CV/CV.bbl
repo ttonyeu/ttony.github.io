@@ -1,0 +1,78 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{T2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
+           family={{Tony}},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{fullhash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{bibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authorbibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://c133.de.tabdigital.eu/s/adG3fwWpZE4D7HD}}
+      \field{note}{Master's thesis, advisor: \href{https://home.mathematik.uni-freiburg.de/ngrosse/}{N. Große}, University of Freiburg}
+      \field{title}{{The End-Periodic Index Theorem for Dirac Operators and its Connection to the Classical Atiyah-Patodi-Singer Index Theorem}}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{T1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
+           family={{Tony}},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Albert-Ludwigs Universität Freiburg}%
+      }
+      \strng{namehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{fullhash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{bibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authorbibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://c133.de.tabdigital.eu/s/pd68nKpAyeY8YtM}}
+      \field{note}{State exam's thesis, advisor: \href{https://www.maths.tcd.ie/~wendland/}{K. Wendland}, University of Freiburg}
+      \field{title}{{Die Riemannsche Vermutung und die Primzahlverteilung}}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,68 @@
+\setlength{\hintscolumnwidth}{2.5cm}
+
+\definecolor{color2}{rgb}{0,0,0} %black
+% \definecolor{urlcolor}{rgb}{0.2,0.2,0.2} %dark gray
+
+\renewcommand*{\hintfont}{}
+\renewcommand*{\cvitem}[3][.25em]{%
+	\begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}p{\maincolumnwidth-\hintscolumnwidth-1em}@{}}%
+		\raggedleft\hintstyle{#2} &{#3}%
+	\end{tabular}%
+	\par\addvspace{#1}}
+
+ \renewcommand*{\cventry}[7][.25em]{%
+	\cvitem[#1]{#2}{%
+		{#3}%
+		\ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+		\ifthenelse{\equal{#5}{}}{}{, #5}%
+		\ifthenelse{\equal{#6}{}}{}{, #6}%
+		.\strut%
+		\ifx&#7&%
+		\else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+	
+\usepackage{xpatch}
+\xpatchcmd{\cventry}{\slshape#4}{#4}{}{}										%kein Kursiv in Einträgen
+\xpatchcmd{\cventry}{\bfseries}{}{\mdseries}{}{}{}{}							%kein Fett in Einträgen
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Größe der Überschriften geändert %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand*{\sectionfont}{%
+	\if@norules%
+	\large\bfseries\scshape%
+	\else%
+	\large\bfseries\upshape\fi}
+\renewcommand*{\subsectionfont}{%
+	\if@norules%
+	\mdseries\itshape%
+	\else%
+	\upshape\fontseries{sb}\selectfont\fi}
+
+\renewcommand*{\namefont}{\huge\bfseries\upshape}
+\renewcommand*{\titlefont}{\huge\mdseries\upshape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Geometry und Seitenzahl %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[a4paper, scale=0.75, foot=2cm]{geometry}
+\fancyfoot[c]{\thepage}
+
+
+\newcommand{\ExternalLink}{%
+	\tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{% 
+		\begin{scope}[x=1ex, y=1ex]
+			\clip (-0.1,-0.1) 
+			--++ (-0, 1.2) 
+			--++ (0.6, 0) 
+			--++ (0, -0.6) 
+			--++ (0.6, 0) 
+			--++ (0, -1);
+			\path[draw, 
+			line width = 0.5, 
+			rounded corners=0.5] 
+			(0,0) rectangle (1,1);
+		\end{scope}
+		\path[draw, line width = 0.5] (0.5, 0.5) 
+		-- (1, 1);
+		\path[draw, line width = 0.5] (0.6, 1) 
+		-- (1, 1) -- (1, 0.6);
+	}
+}
