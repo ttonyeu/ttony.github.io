@@ -384,9 +384,6 @@ OUTPUT /home/thomas/Dokumente/PhD/ttony.github.io/CV/CV.out
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
-INPUT /usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
-INPUT /usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ts1-qplr.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
@@ -420,10 +417,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fo
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso9.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/thomas/Dokumente/PhD/ttony.github.io/CV/CV.aux
 INPUT /home/thomas/Dokumente/PhD/ttony.github.io/CV/CV.out
 INPUT /home/thomas/Dokumente/PhD/ttony.github.io/CV/CV.out
@@ -431,7 +428,6 @@ INPUT /home/thomas/Dokumente/PhD/ttony.github.io/CV/CV.run.xml
 OUTPUT /home/thomas/Dokumente/PhD/ttony.github.io/CV/CV.run.xml
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmss10.pfb
@@ -441,4 +437,3 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmss9.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb
