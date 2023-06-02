@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>CV.bcf</file>
+      <file>CV_TTony.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>CV.bbl</file>
+      <file>CV_TTony.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -66,19 +66,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>CV</infile>
+      <infile>CV_TTony</infile>
     </cmdline>
     <input>
-      <file>CV.bcf</file>
+      <file>CV_TTony.bcf</file>
     </input>
     <output>
-      <file>CV.bbl</file>
+      <file>CV_TTony.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>CV.bbl</file>
+      <file>CV_TTony.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>CV.bcf</file>
+      <file>CV_TTony.bcf</file>
     </requires>
     <requires type="editable">
       <file>literatur-cv.bib</file>
