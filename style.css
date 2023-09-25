@@ -116,7 +116,7 @@ float: left;
 }
 
 .padding2 {
-	padding: 0% 3%;
+	padding: 0% 5%;
 }
 
 .paddingimpressumg {
@@ -260,27 +260,29 @@ display: none;
 
 
 .overlay-text{
-	padding:5px;
+	padding:4px 0px;
 	text-align:center;
 	position: absolute;
-	bottom: 0px
+	bottom: 0px;
+	width: 100%;
+	left: -3px;
   }
 
 .overlay-text-name{
 	background-color:rgba(255, 255, 255, 0.7);
-	padding:0px 4px;
+	padding: 0px 4px;
 	text-align:left;
 	position: absolute;
 	bottom: 53px;
-	left: 9px
+	left: 5%;
   }
 
 .overlay-text-email{
-	padding:5px 5px;
+	padding:4px 5%;
 	text-align:center;
 	position: absolute;
-	bottom: 0px;
-	right: 15px;
+	bottom: 0;
+	right: 11px;
   }
 
 .headerDesktop{
@@ -293,28 +295,29 @@ display: none;
   
 
 .overlay-text-mobile{
-	padding:5px;
+	padding:4px 0px;
 	text-align:center;
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
+	left: -3px;
   }
 
 .overlay-text-namemobile{
 	background-color:rgba(255, 255, 255, 0.7);
-	padding:0px 4px;
+	padding: 0px 4px;
 	text-align:left;
 	position: absolute;
 	bottom: 95px;
-	left: 7px;
+	left: 5%;
   }
 
 .overlay-text-email-mobile{
-	padding:5px 5px;
+	padding:4px 5%;
 	text-align:center;
 	position: absolute;
-	bottom: 0px;
-	right: 13px
+	bottom: 0;
+	right: 11px;
   }
 
 .headerMobile{
@@ -326,28 +329,29 @@ display: none;
  }
 
 .overlay-text-ipad{
-	padding:5px;
+	padding:4px 0px;
 	text-align:center;
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
+	left: -3px;
   }
 
 .overlay-text-nameiPad{
 	background-color:rgba(255, 255, 255, 0.7);
-	padding:0px 4px;
+	padding: 0px 4px;
 	text-align:left;
 	position: absolute;
 	bottom: 53px;
-	left: 7px;
+	left: 5%;
   }
 
 .overlay-text-email-ipad{
-	padding:5px 5px;
+	padding:4px 5%;
 	text-align:center;
 	position: absolute;
-	bottom: 0px;
-	right: 10px
+	bottom: 0;
+	right: 11px;
   }
 
 .headerIpad{
