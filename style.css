@@ -85,11 +85,12 @@ cursor: pointer;
 .button3 {border-radius: 8px;}
 .button4 {border-radius: 12px;}
 .button5 {border-radius: 50%;}
-.button6 {padding: 0px 4px; text-align: left; border-radius: 0px;height: 35px; width: 95%; border: 0px ; background-color:rgba(255, 255, 255, 0.7);}
+.button6 {padding: 0px 4px; text-align: left; border-radius: 0px;height: 35px; width: 100%; border: 0px ; background-color:rgba(255, 255, 255, 0.6);}
 .button7 {border-radius: 12px;height: 40px; width: 100%; border: 2px solid #003366;}
-.button8 {border-radius: 20px;height: 35px; width: 120%; border: 0px; background-color:rgba(255, 255, 255, 0.7);}
+.button8 {border-radius: 20px;height: 35px; width: 120%; border: 0px; background-color:rgba(255, 255, 255, 0.6);}
 .button9 {border-radius: 12px;height: 40px; width: 95%; border: 2px solid #003366;}
 .button10 {border-radius: 12px;height: 40px;  padding: 0px 32px; border: 2px solid #003366;}
+.button11 {padding: 0px 4px; text-align: left; border-radius: 0px;height: 35px; width: 100pt; border: 0px ; background-color:rgba(255, 255, 255, 0.6);}
 
 a.big-link{position:relative;}
 a.big-link:before{
@@ -152,17 +153,22 @@ width: 37%;
 }
 
 .left120 {
-width: 120pt;
+padding: 0 2pt;
 text-align: center;
 }
 
+.right120{
+	padding: 0 2pt;
+	text-align: center;
+}
+
 .left100pt {
-	width: 75pt;
+	padding: 0 3pt;
 	text-align: center;
 	}
 
 .right100pt {
-	width: 70pt;
+	padding: 0 5pt;
 	text-align: center;
 	}
 
@@ -180,11 +186,6 @@ text-align: center;
 	width: 50%;
 	text-align: center;
 	}
-
-.right120{
-width: 120pt;
-text-align: center;
-}
 
 .right50{
 	width: 50pt;
@@ -229,13 +230,13 @@ display: none;
 }
 }
 
-@media all and (min-width: 621px) and (max-width: 1000px){
+@media all and (min-width: 601px) and (max-width: 1000px){
 	.hide-in-ipad-opening {
 	display: none;
 	}
 	}
 
-@media all and (max-width: 620px) {
+@media all and (max-width: 600px) {
 .show-on-desktop-opening  {
 display: none;
 }
@@ -255,8 +256,8 @@ display: none;
 
 
 @media all and (min-width:1001px)                       { html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 1000px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
-@media all and (min-width:621px)  and (max-width:1000px) { html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
-@media all and (max-width:620px)                        { html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (min-width:601px)  and (max-width:1000px) { html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (max-width:600px)                        { html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
 
 
 .overlay-text{
@@ -265,11 +266,11 @@ display: none;
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-	left: -3px;
+	left: -4px;
   }
 
 .overlay-text-name{
-	background-color:rgba(255, 255, 255, 0.7);
+	background-color:rgba(255, 255, 255, 0.6);
 	padding: 0px 4px;
 	text-align:left;
 	position: absolute;
@@ -300,11 +301,11 @@ display: none;
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-	left: -3px;
+	left: -6px;
   }
 
 .overlay-text-namemobile{
-	background-color:rgba(255, 255, 255, 0.7);
+	background-color:rgba(255, 255, 255, 0.6);
 	padding: 0px 4px;
 	text-align:left;
 	position: absolute;
@@ -334,7 +335,7 @@ display: none;
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-	left: -3px;
+	left: -6px;
   }
 
 .overlay-text-nameiPad{
