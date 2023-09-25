@@ -85,12 +85,12 @@ cursor: pointer;
 .button3 {border-radius: 8px;}
 .button4 {border-radius: 12px;}
 .button5 {border-radius: 50%;}
-.button6 {padding: 0px 4px; text-align: left; border-radius: 0px;height: 35px; width: 100%; border: 0px ; background-color:rgba(255, 255, 255, 0.6);}
+.button6 {padding: 0px 4px; text-align: left; border-radius: 0px;height: 35px; width: 100%; border: 0px ; background-color:rgba(255, 255, 255, 0.7);}
 .button7 {border-radius: 12px;height: 40px; width: 100%; border: 2px solid #003366;}
-.button8 {border-radius: 20px;height: 35px; width: 120%; border: 0px; background-color:rgba(255, 255, 255, 0.6);}
+.button8 {border-radius: 20px;height: 35px; width: 120%; border: 0px; background-color:rgba(255, 255, 255, 0.7);}
 .button9 {border-radius: 12px;height: 40px; width: 95%; border: 2px solid #003366;}
 .button10 {border-radius: 12px;height: 40px;  padding: 0px 32px; border: 2px solid #003366;}
-.button11 {padding: 0px 4px; text-align: left; border-radius: 0px;height: 35px; width: 100pt; border: 0px ; background-color:rgba(255, 255, 255, 0.6);}
+.button11 {padding: 0px 4px; text-align: left; border-radius: 0px;height: 35px; width: 100pt; border: 0px ; background-color:rgba(255, 255, 255, 0.7);}
 
 a.big-link{position:relative;}
 a.big-link:before{
@@ -270,7 +270,7 @@ display: none;
   }
 
 .overlay-text-name{
-	background-color:rgba(255, 255, 255, 0.6);
+	background-color:rgba(255, 255, 255, 0.7);
 	padding: 0px 4px;
 	text-align:left;
 	position: absolute;
@@ -305,7 +305,7 @@ display: none;
   }
 
 .overlay-text-namemobile{
-	background-color:rgba(255, 255, 255, 0.6);
+	background-color:rgba(255, 255, 255, 0.7);
 	padding: 0px 4px;
 	text-align:left;
 	position: absolute;
