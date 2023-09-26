@@ -203,11 +203,11 @@ text-align: center;
 
 
 .leftfooter {
-width: 50%;
+width: 67%;
 }
 
 .rightfooter {
-width: 50%;
+width: 33%;
 text-align: right;
 }
 
@@ -245,13 +245,13 @@ display: none;
 }
 }
 
-@media all and (min-width: 521px) {
+@media all and (min-width: 621px) {
 .hide-on-desktop-footer {
 display: none;
 }
 }
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 620px) {
 .show-on-desktop-footer  {
 display: none;
 }
