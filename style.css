@@ -34,6 +34,10 @@ border-top: 2px solid gray;}
 h3 {
 margin: 0;}
 
+.B1 {padding: 0px 26px;}
+.B2 {padding: 0px 11px;}
+.B3 {padding: 0px 9px;}
+
 /* this styles how the links appear on your webpage */
 a, a:link, a:hover, a:visited {
 color: #003366;
@@ -86,16 +90,17 @@ cursor: pointer;
 .button3 {border-radius: 8px;}
 .button4 {border-radius: 12px;}
 .button5 {border-radius: 50%;}
-.button6 {padding: 0px 11px; text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
+.button6 {text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
 .button7 {border-radius: 12px;height: 40px; width: 100%; border: 2px solid #003366;}
-.button8 {padding: 0px 11px; border-radius: 20px;height: 35px; width: 100%; border: 0px}
-.button9 {border-radius: 12px;height: 35px; width: 95%; border: 2px solid #003366;}
-.button10 {border-radius: 12px;height: 35px;  padding: 0px 10px; border: 2px solid #003366;}
-.button11 {padding: 0px 26px; text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
-.button12 {padding: 0px 9px; text-align: left; border-radius: 0px;height: 30px; width: 100%; border: 0px ;}
+.button8 {padding: 0px 11px; border-radius: 20px;height: 35px; width: 100%; border: 0px; color: #003366;}
+.button9 {border-radius: 12px;height: 35px; width: 95%; border: 2px solid #003366; color: #003366;}
+.button10 {border-radius: 12px;height: 35px;  padding: 0px 10px; border: 2px solid #003366; color: #003366;}
+.button11 {color: black; text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
+.button12 {text-align: left; border-radius: 0px;height: 30px; width: 100%; border: 0px ;}
 .button13 {border-radius: 20px;height: 30px; width: 120%; border: 0px; background-color:rgba(255, 255, 255, 0.7);}
 .button14 {padding: 0px 11px; border-radius: 20px;height: 35px; width: 100%; border: 0px;}
 .button15 {padding: 0px 9px; border-radius: 20px;height: 30px; width: 100%; border: 0px;}
+
 
 a.big-link{position:relative;}
 a.big-link:before{
