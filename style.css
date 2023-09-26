@@ -34,9 +34,9 @@ border-top: 2px solid gray;}
 h3 {
 margin: 0;}
 
-.B1 {padding: 0px 26px;}
-.B2 {padding: 0px 11px;}
-.B3 {padding: 0px 9px;}
+.B1 {padding: 0px 24px;}
+.B2 {padding: 0px 10px;}
+.B3 {padding: 0px 8px;}
 
 /* this styles how the links appear on your webpage */
 a, a:link, a:hover, a:visited {
@@ -78,7 +78,7 @@ box-sizing: border-box;
 border: none;
 font-family: verdana, sans-serif;
 color: white;
-padding: 2px;
+padding: 0px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
