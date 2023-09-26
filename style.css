@@ -78,7 +78,7 @@ padding: 2px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-margin: 4px 2px;
+margin: 4px 0px;
 cursor: pointer;
 }
 .button1 {border-radius: 2px;}
@@ -86,14 +86,16 @@ cursor: pointer;
 .button3 {border-radius: 8px;}
 .button4 {border-radius: 12px;}
 .button5 {border-radius: 50%;}
-.button6 {padding: 0px 10px; text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
+.button6 {padding: 0px 11px; text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
 .button7 {border-radius: 12px;height: 40px; width: 100%; border: 2px solid #003366;}
-.button8 {border-radius: 20px;height: 35px; width: 120%; border: 0px; background-color:rgba(255, 255, 255, 0.7);}
+.button8 {padding: 0px 26px; border-radius: 12px;height: 35px; width: 100%; border: 0px}
 .button9 {border-radius: 12px;height: 35px; width: 95%; border: 2px solid #003366;}
 .button10 {border-radius: 12px;height: 35px;  padding: 0px 10px; border: 2px solid #003366;}
-.button11 {padding: 0px 4px; text-align: left; border-radius: 0px;height: 35px; width: 100pt; border: 0px ;}
-.button12 {padding: 0px 8px; text-align: left; border-radius: 0px;height: 30px; width: 100%; border: 0px ;}
+.button11 {padding: 0px 26px; text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
+.button12 {padding: 0px 9px; text-align: left; border-radius: 0px;height: 30px; width: 100%; border: 0px ;}
 .button13 {border-radius: 20px;height: 30px; width: 120%; border: 0px; background-color:rgba(255, 255, 255, 0.7);}
+.button14 {padding: 0px 11px; border-radius: 12px;height: 35px; width: 100%; border: 0px;}
+.button15 {padding: 0px 9px; border-radius: 12px;height: 30px; width: 100%; border: 0px;}
 
 a.big-link{position:relative;}
 a.big-link:before{
@@ -156,7 +158,7 @@ width: 37%;
 }
 
 .left120 {
-padding: 0 2pt;
+padding: 0 4px;
 text-align: center;
 }
 
@@ -166,12 +168,12 @@ text-align: center;
 }
 
 .left100pt {
-	padding: 0 3pt;
+	padding: 0 4px;
 	text-align: center;
 	}
 
 .right100pt {
-	padding: 0 5pt;
+	padding: 0 2px;
 	text-align: center;
 	}
 
@@ -269,16 +271,16 @@ display: none;
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-	left: -4px;
+	left: -29px;
   }
 
 .overlay-text-name{
 	background-color:rgba(255, 255, 255, 0.5);
-	padding: 0px 4px;
+	padding: 0px 25px;
 	text-align:left;
 	position: absolute;
-	bottom: 53px;
-	left: 5%;
+	bottom: 51px;
+	left: 22.5px;
   }
 
 .overlay-text-email{
@@ -286,7 +288,7 @@ display: none;
 	text-align:center;
 	position: absolute;
 	bottom: 0;
-	right: 11px;
+	right: -26px;
   }
 
 .headerDesktop{
@@ -304,7 +306,7 @@ display: none;
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-	left: -6px;
+	left: -4px;
   }
 
 .overlay-text-namemobile{
@@ -321,7 +323,7 @@ display: none;
 	text-align:center;
 	position: absolute;
 	bottom: 0;
-	right: 11px;
+	right: 0px;
   }
 
 .headerMobile{
@@ -338,7 +340,7 @@ display: none;
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-	left: -6px;
+	left: -4px;
   }
 
 .overlay-text-nameiPad{
@@ -355,7 +357,7 @@ display: none;
 	text-align:center;
 	position: absolute;
 	bottom: 0;
-	right: 11px;
+	right: 0px;
   }
 
 .headerIpad{
