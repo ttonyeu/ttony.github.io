@@ -205,7 +205,7 @@
 			<span class='smaller'>
 				 
 				<p style="margin-top: 0;">
-					&copy; 2023 <a href="https://c133.de.tabdigital.eu/" style="border-bottom: 0px solid gray; cursor: default; color: black; text-decoration: none;">Thomas Tony</a> &#x2022; <a href="impressum.html" target="_self">Legal and privacy notices</a>  </p> </span></p> 
+					&copy; 2023 <a href="https://c133.de.tabdigital.eu/" style="border-bottom: 0px solid gray; cursor: default; color: black; text-decoration: none;">Thomas Tony</a> &#x2022; last updated: <a id="date"></a> &#x2022; <a href="impressum.html" target="_self">Legal and privacy notices</a>  </p> </span></p>
 	</footerimpressum>
 	
 	</div>
@@ -214,6 +214,15 @@
 	</div>
 	<br />
 </div>
-	
+<script>
+	var dt = document.lastModified;    
+	dt = dt.replace("/", " ");
+	dt = dt.replace("/", " ");
+	dt = dt.replace("-", " ");
+	dt = dt.replace("-", " ");
+	var nowdate = new Date(Date.parse(dt));
+	var date = nowdate.getFullYear()+'/'+(nowdate.getMonth()+1)+'/'+nowdate.getDate();
+	document.getElementById("date").innerHTML = date;
+</script>
 </body>
 </html>
