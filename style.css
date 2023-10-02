@@ -7,7 +7,17 @@ html { font-size: 2vw; }
 margin-top: 0px;
 margin-left: 28%;
 text-align: justify;
-margin-right: 28%;}
+margin-right: 28%;
+	/* Careful, this breaks the word wherever it is without a hyphen */
+overflow-wrap: break-word;
+word-wrap: break-word;
+	/* Adds a hyphen where the word breaks */
+-webkit-hyphens: auto;
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+hyphens: auto;
+}
+
 
 .backg1{
 	background-color: #F4F0EC;
@@ -43,6 +53,7 @@ color: #003366;
 text-decoration: none;}
 
 .smaller { font-size:75%; }
+.big {text-transform: capitalize;}
 
 
 /* hover describes what happens when your cursor is on the link */
