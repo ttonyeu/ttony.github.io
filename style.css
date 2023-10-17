@@ -157,6 +157,14 @@ width: 61%;
 width: 37%;
 }
 
+.leftDesktop {
+	width: 70%;
+	}
+	
+.rightDesktop {
+	width: 28%;
+	}
+
 .leftiPad {
 	width: 72%;
 	}
@@ -245,20 +253,26 @@ clear: both;
 
 /* This forces the container to adapt to the window size; i.e. makes the webpage somehow 'adaptive' to the device you use. */
 
-@media all and (min-width: 950px) {
-.hide-on-desktop-opening {
+@media all and (min-width: 1200px) {
+	.desktop-opening {
 display: none;
 }
 }
 
+@media all and (min-width: 950px) and (max-width: 1199px){
+	.laptop-opening {
+	display: none;
+	}
+	}
+
 @media all and (min-width: 621px) and (max-width: 949px){
-	.hide-in-ipad-opening {
+	.ipad-opening {
 	display: none;
 	}
 	}
 
 @media all and (max-width: 620px) {
-.show-on-desktop-opening  {
+	.mobile-opening  {
 display: none;
 }
 }
@@ -275,10 +289,10 @@ display: none;
 }
 }
 
-
-@media all and (min-width:950px)                       { html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 950px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
-@media all and (min-width:621px)  and (max-width:1000px) { html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
-@media all and (max-width:620px)                        { html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (min-width:1250px)  							{ html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 1150px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
+@media all and (min-width:950px)  and (max-width:1249px) 	{ html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 950px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
+@media all and (min-width:621px)  and (max-width:949px) 	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (max-width:620px)                        	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
 
 
 .overlay-text{
@@ -299,6 +313,15 @@ display: none;
 	left: 22.5px;
   }
 
+  .overlay-text-namedesktop{
+	background-color:rgba(255, 255, 255, 0.5);
+	padding: 0px 25px;
+	text-align:left;
+	position: absolute;
+	bottom: 51px;
+	left: 32.5px;
+  }
+
 .overlay-text-email{
 	padding:4px 5%;
 	text-align:center;
@@ -308,6 +331,14 @@ display: none;
   }
 
 .headerDesktop{
+	position:relative;
+   	height: 350pt;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+ }
+
+.headerLaptop{
 	position:relative;
    	height: 300pt;
 	width: 100%;
