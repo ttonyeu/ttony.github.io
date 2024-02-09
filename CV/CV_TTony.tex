@@ -122,15 +122,16 @@
 \section{Technical skills}
 \cvitemwithcomment{}{Latex, Python, Linux}{}{}{}{}
 
-\nocite{*}
-\printbibliography[title={Theses}, type=misc]
-
-%\vfill \section{List of publications}
-
 %\nocite{*}
-%\vfill \printbibliography[title={Articles}, type=article]
-%\vfill \printbibliography[title={Preprints}, type=unpublished]
-%\vfill \printbibliography[title={Theses}, type=misc, heading=subbibliography]
+%\printbibliography[title={Theses}, type=misc]
+
+\section{List of publications}
+
+%\nocite{<key>}
+\nocite{*}
+\printbibliography[title={Articles}, keyword={article}, heading=subbibliography]
+\printbibliography[title={Preprints}, keyword={preprint}, heading=subbibliography]
+\printbibliography[title={Theses}, keyword={thesis}, heading=subbibliography]
 
 %\vspace{0cm} 
 %\hspace{0.15cm} \includegraphics[width=0.3\textwidth]{Unterschrift.png} \\
