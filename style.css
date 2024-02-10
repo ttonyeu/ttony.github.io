@@ -253,13 +253,13 @@ clear: both;
 
 /* This forces the container to adapt to the window size; i.e. makes the webpage somehow 'adaptive' to the device you use. */
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1250px) {
 	.desktop-opening {
 display: none;
 }
 }
 
-@media all and (min-width: 950px) and (max-width: 1199px){
+@media all and (min-width: 950px) and (max-width: 1249px){
 	.laptop-opening {
 	display: none;
 	}
@@ -328,6 +328,32 @@ display: none;
 	position: absolute;
 	bottom: 0;
 	right: -11px;
+  }
+
+.overlay-text-email-desktop{
+	padding:4px 5%;
+	text-align:center;
+	position: absolute;
+	bottom: 0;
+	width: 30%;
+	right: -66px;
+  }
+
+.overlay-text-email-laptop{
+	padding:4px 5%;
+	text-align:center;
+	position: absolute;
+	bottom: 0;
+	width: 30%;
+	right: -28px;
+  }
+
+.overlay-text-orcid{
+	padding:4px 5%;
+	text-align:center;
+	position: absolute;
+	bottom: 0;
+	right: 45px;
   }
 
 .headerDesktop{
