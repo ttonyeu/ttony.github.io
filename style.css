@@ -191,6 +191,14 @@ width: 37%;
 	width: 20%;
 	}
 
+.leftmobilehorizontable {
+	width: 65%;
+	}
+		
+.rightmobilehorizontable {
+	width: 30%;
+	}
+
 .spotfilleriPad{
 		width: 5%;
 	}
@@ -289,13 +297,13 @@ display: none;
 	}
 	}
 
-@media all and (min-width: 501px) and (max-width: 750px){
+@media all and (min-width: 601px) and (max-width: 750px){
 	.mobilehorizontal-opening {
 	display: none;
 	}
 	}
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
 	.mobile-opening  {
 display: none;
 }
@@ -322,8 +330,8 @@ display: none;
 @media all and (min-width:1201px)  							{ html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 1150px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
 @media all and (min-width:951px)  and (max-width:1200px) 	{ html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 950px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
 @media all and (min-width:751px)  and (max-width:950px) 	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
-@media all and (min-width:501px)  and (max-width:750px) 	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
-@media all and (max-width:500px)                        	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (min-width:601px)  and (max-width:750px) 	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (max-width:600px)                        	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
 
 
 .overlay-text{
