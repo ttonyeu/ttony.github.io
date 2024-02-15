@@ -27,8 +27,8 @@ hyphens: auto;
 
 body {
 font-family: verdana, sans-serif;
-font-weight: 500;
-line-height: 1.75;
+font-weight:500;
+line-height: 2;
 height: 100vh; 
 -webkit-text-size-adjust: 100%;
 margin: 0px; 
@@ -101,13 +101,13 @@ cursor: pointer;
 .button3 {border-radius: 8px;}
 .button4 {border-radius: 12px;}
 .button5 {border-radius: 50%;}
-.button6 {text-align: left; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
+.button6 {font-size: 15px; text-align: left; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
 .button7 {border-radius: 12px;height: 40px; width: 100%; border: 2px solid #003366;}
 .button8 {padding: 0px 11px; border-radius: 20px;height: 35px; width: 100%; border: 0px; color: #003366;}
 .button9 {border-radius: 12px;height: 35px; width: 95%; border: 2px solid #003366; color: #003366;}
 .button10 {border-radius: 12px;height: 35px;  padding: 0px 10px; border: 2px solid #003366; color: #003366;}
-.button11 {color: black; text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
-.button12 {text-align: left; border-radius: 0px;height: 30px; width: 100%; border: 0px ;}
+.button11 {font-size: 16px; color: black; text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
+.button12 {font-size: 14px; text-align: left; border-radius: 0px;height: 30px; width: 100%; border: 0px ;}
 .button13 {border-radius: 20px;height: 30px; width: 120%; border: 0px; background-color:rgba(255, 255, 255, 0.7);}
 .button14 {padding: 0px 11px; border-radius: 20px;height: 35px; width: 100%; border: 0px;}
 .button15 {padding: 0px 9px; border-radius: 20px;height: 30px; width: 100%; border: 0px;}
@@ -168,19 +168,19 @@ padding: 0% 0%;
 }
 
 .left {
-width: 61%;
+width: 58%;
 }
 
 .right {
-width: 37%;
+width: 40%;
 }
 
 .leftDesktop {
-	width: 70%;
+	width: 69%;
 	}
 	
 .rightDesktop {
-	width: 28%;
+	width: 29%;
 	}
 
 .leftiPad {
@@ -291,13 +291,13 @@ display: none;
 	}
 	}
 
-@media all and (min-width: 751px) and (max-width: 950px){
+@media all and (min-width: 781px) and (max-width: 950px){
 	.ipad-opening {
 	display: none;
 	}
 	}
 
-@media all and (min-width: 601px) and (max-width: 750px){
+@media all and (min-width: 601px) and (max-width: 780px){
 	.mobilehorizontal-opening {
 	display: none;
 	}
@@ -315,13 +315,13 @@ display: none;
 }
 }
 
-@media all and (min-width: 751px) and (max-width: 1200px){
+@media all and (min-width: 781px) and (max-width: 1200px){
 .footer2  {
 display: none;
 }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 780px) {
 .footer3 {
 display: none;
 }
@@ -329,9 +329,9 @@ display: none;
 
 @media all and (min-width:1201px)  							{ html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 1150px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
 @media all and (min-width:951px)  and (max-width:1200px) 	{ html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 950px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
-@media all and (min-width:751px)  and (max-width:950px) 	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
-@media all and (min-width:601px)  and (max-width:750px) 	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
-@media all and (max-width:600px)                        	{ html { font-size: 14px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (min-width:781px)  and (max-width:950px) 	{ html { font-size: 15px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (min-width:601px)  and (max-width:780px) 	{ html { font-size: 14px; } Footer{ font-size:12px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (max-width:600px)                        	{ html { font-size: 14px; } Footer{ font-size:12px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
 
 
 .overlay-text{
