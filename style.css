@@ -113,7 +113,7 @@ cursor: pointer;
 .button15 {padding: 0px 9px; border-radius: 20px;height: 30px; width: 100%; border: 0px;}
 .button16 {padding: 0px 11px; border-radius: 20px;height: 30px; width: 100%; border: 0px; color: #003366;}
 
-.auswahlbutton1 {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.3); border: 0px solid #444953; background-color: #C0C0C0}
+.auswahlbutton1 {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.3); border: 0px solid #444953; background-color: #abaaaa}
 
 a.big-link{position:relative;}
 a.big-link:before{
