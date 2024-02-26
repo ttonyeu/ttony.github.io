@@ -42,11 +42,12 @@ h2 {
 margin: 0;}
 h3 {
 margin: 0;}
+h4 {
+margin: 0;}
 
 .B1 {padding: 0px 24px;}
 .Blaptop {padding: 0px 12px;}
-.B2 {padding: 0px 8px;}
-.B3 {padding: 0px 8px;}
+.B3 {padding: 0px 12px;}
 
 /* this styles how the links appear on your webpage */
 a, a:link, a:hover, a:visited {
@@ -291,19 +292,19 @@ display: none;
 	}
 	}
 
-@media all and (min-width: 751px) and (max-width: 950px){
+@media all and (min-width: 701px) and (max-width: 950px){
 	.ipad-opening {
 	display: none;
 	}
 	}
 
-@media all and (min-width: 601px) and (max-width: 750px){
+@media all and (min-width: 551px) and (max-width: 700px){
 	.mobilehorizontal-opening {
 	display: none;
 	}
 	}
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 550px) {
 	.mobile-opening  {
 display: none;
 }
@@ -321,7 +322,7 @@ display: none;
 }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 700px) {
 .footer3 {
 display: none;
 }
@@ -329,9 +330,9 @@ display: none;
 
 @media all and (min-width:1201px)  							{ html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 1150px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
 @media all and (min-width:951px)  and (max-width:1200px) 	{ html { font-size: 16px; } Footer{ font-size:14px; } #container {width: 950px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
-@media all and (min-width:751px)  and (max-width:950px) 	{ html { font-size: 15px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
-@media all and (min-width:601px)  and (max-width:750px) 	{ html { font-size: 14px; } Footer{ font-size:12px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
-@media all and (max-width:600px)                        	{ html { font-size: 14px; } Footer{ font-size:12px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (min-width:701px)  and (max-width:950px) 	{ html { font-size: 15px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (min-width:551px)  and (max-width:700px) 	{ html { font-size: 14px; } Footer{ font-size:12px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
+@media all and (max-width:550px)                        	{ html { font-size: 14px; } Footer{ font-size:12px; } #container {margin-left: 0%; margin-right: 0%;} body {background-color: #F4F0EC}}
 
 
 .overlay-text{
@@ -450,7 +451,7 @@ display: none;
 
 .overlay-text-namemobile{
 	background-color:rgba(255, 255, 255, 0.5);
-	padding: 0px 8px;
+	padding: 0px 12px;
 	text-align:left;
 	position: absolute;
 	bottom: 85px;
