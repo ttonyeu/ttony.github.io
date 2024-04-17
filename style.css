@@ -18,11 +18,6 @@ word-wrap: break-word;
 hyphens: auto;
 }
 
-.textform{
-	color:#494e52;
-	font-weight:500;
-}
-
 .backg1{
 	background-color: #F4F0EC;
 }
@@ -69,7 +64,7 @@ text-decoration: none;}
 
 /* hover describes what happens when your cursor is on the link */
 a:hover {
-border-bottom: 1px solid gray;}
+border-bottom: 1px solid #D3D3D3;}
 
 .header {
 height: 40px;
@@ -83,7 +78,6 @@ padding: 20px;
 footer {
 padding: 2% 0%;
 background: #D3D3D3;
-color:#494e52;
 font-size: 14px;
 }
 
@@ -117,12 +111,12 @@ cursor: pointer;
 .button10 {border-radius: 12px;height: 35px;  padding: 0px 10px; border: 2px solid #003366; color: #003366;}
 .button11 {font-size: 17px; color: black; text-align: center; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
 .button12 {font-size: 15px; text-align: left; border-radius: 0px;height: 30px; width: 100%; border: 0px ;}
-.button13 {border-radius: 20px;height: 30px; width: 120%; border: 0px; background-color:rgba(255, 255, 255, 0.7);}
+.button13 {border-radius: 20px;height: 30px; width: 120%; border: 0px; background-color:rgba(244, 240, 236, 0.7);}
 .button14 {padding: 0px 11px; border-radius: 20px;height: 35px; width: 100%; border: 0px;}
 .button15 {padding: 0px 9px; border-radius: 20px;height: 30px; width: 100%; border: 0px;}
 .button16 {padding: 0px 11px; border-radius: 20px;height: 30px; width: 100%; border: 0px; color: #003366;}
 
-.auswahlbutton1 {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.3); border: 0px solid #444953; background-color: #abaaaa}
+.auswahlbutton1 {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.3); border: 0px solid #444953; background-color: #D3D3D3}
 
 a.big-link{position:relative;}
 a.big-link:before{
@@ -362,7 +356,7 @@ display: none;
   }
 
 .overlay-text-name{
-	background-color:rgba(255, 255, 255, 0.5);
+	background-color:rgba(244, 240, 236, 0.5);
 	padding: 0px 25px;
 	text-align:left;
 	position: absolute;
@@ -371,7 +365,7 @@ display: none;
   }
 
   .overlay-text-namedesktop{
-	background-color:rgba(255, 255, 255, 0.5);
+	background-color:rgba(244, 240, 236, 0.5);
 	padding: 0px 24px;
 	text-align:left;
 	position: absolute;
@@ -380,7 +374,7 @@ display: none;
   }
 
   .overlay-text-namelaptop{
-	background-color:rgba(255, 255, 255, 0.5);
+	background-color:rgba(244, 240, 236, 0.5);
 	padding: 0px 14px;
 	text-align:left;
 	position: absolute;
@@ -458,7 +452,7 @@ display: none;
   }
 
 .overlay-text-namemobile{
-	background-color:rgba(255, 255, 255, 0.5);
+	background-color:rgba(244, 240, 236, 0.5);
 	padding: 0px 12px;
 	text-align:left;
 	position: absolute;
@@ -492,7 +486,7 @@ display: none;
   }
 
 .overlay-text-nameiPad{
-	background-color:rgba(255, 255, 255, 0.5);
+	background-color:rgba(244, 240, 236, 0.5);
 	padding: 0px 10px;
 	text-align:center;
 	position: absolute;
