@@ -18,6 +18,10 @@ word-wrap: break-word;
 hyphens: auto;
 }
 
+.textform{
+	color:#494e52;
+	font-weight:500;
+}
 
 .backg1{
 	background-color: #F4F0EC;
