@@ -337,7 +337,7 @@ display: none;
 }
 
 @media all and (min-width:1201px)  							{ html { font-size: 17px; } Footer{ font-size:15px; } #container {width: 1150px; margin: 0 auto;} body {background: url('chalkboard.jpg'); background-attachment: fixed;}}
-@media all and (min-width:951px)  and (max-width:1200px) 	{ html { font-size: 17px; } Footer{ font-size:15px; } #container {width: 950px; margin: 0 auto;} body {color:#2a2c2d; font-weight:500; background: url('chalkboard.jpg'); background-attachment: fixed;}}
+@media all and (min-width:951px)  and (max-width:1200px) 	{ html { font-size: 17px; } Footer{ font-size:15px; } #container {width: 950px; margin: 0 auto;} body {color:#202121; font-weight:500; background: url('chalkboard.jpg'); background-attachment: fixed;}}
 @media all and (min-width:701px)  and (max-width:950px) 	{ html { font-size: 16px; } Footer{ font-size:14px; } #container {margin-left: 0%; margin-right: 0%;} body {color:#2a2c2d; font-weight:500; background-color: #F4F0EC}}
 @media all and (min-width:551px)  and (max-width:700px) 	{ html { font-size: 15px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {color:#2a2c2d; font-weight:500; background-color: #F4F0EC}}
 @media all and (max-width:550px)                        	{ html { font-size: 15px; } Footer{ font-size:13px; } #container {margin-left: 0%; margin-right: 0%;} body {color:#2a2c2d; font-weight:500; background-color: #F4F0EC}}
