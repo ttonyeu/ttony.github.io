@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'CV_TTony.blg'
-[129] biber:322> INFO - === Mi Feb 28, 2024, 14:09:40
-[165] Biber.pm:415> INFO - Reading 'CV_TTony.bcf'
-[259] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[276] Biber.pm:4256> INFO - Processing section 0
-[277] Utils.pm:75> INFO - Globbing data source 'literatur-cv.bib'
-[277] Utils.pm:91> INFO - Globbed data source 'literatur-cv.bib' to literatur-cv.bib
-[294] Biber.pm:4455> INFO - Looking for bibtex format file 'literatur-cv.bib' for section 0
-[295] bibtex.pm:1653> INFO - LaTeX decoding ...
-[307] bibtex.pm:1471> INFO - Found BibTeX data source 'literatur-cv.bib'
-[359] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[359] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[359] Biber.pm:4084> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[359] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[363] bbl.pm:652> INFO - Writing 'CV_TTony.bbl' with encoding 'UTF-8'
-[365] bbl.pm:755> INFO - Output to CV_TTony.bbl
+[59] biber:322> INFO - === Mi Mai 22, 2024, 14:27:16
+[70] Biber.pm:415> INFO - Reading 'CV_TTony.bcf'
+[117] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[127] Biber.pm:4256> INFO - Processing section 0
+[128] Utils.pm:75> INFO - Globbing data source 'literatur-cv.bib'
+[128] Utils.pm:91> INFO - Globbed data source 'literatur-cv.bib' to literatur-cv.bib
+[135] Biber.pm:4455> INFO - Looking for bibtex format file 'literatur-cv.bib' for section 0
+[136] bibtex.pm:1653> INFO - LaTeX decoding ...
+[140] bibtex.pm:1471> INFO - Found BibTeX data source 'literatur-cv.bib'
+[167] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[167] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[167] Biber.pm:4084> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[167] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[169] bbl.pm:652> INFO - Writing 'CV_TTony.bbl' with encoding 'UTF-8'
+[170] bbl.pm:755> INFO - Output to CV_TTony.bbl
