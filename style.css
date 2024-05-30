@@ -34,6 +34,11 @@ height: 100vh;
 margin: 0px; 
 }
 
+.rainbow-text {
+	line-height: 7px;
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  }
+
 /* h2 and h3 are tags used for the titles of your webpage; h3 should be smaller than h2 (there is also a biggest one, h1, that I don't use) */
 h1 {
 text-align: left;
