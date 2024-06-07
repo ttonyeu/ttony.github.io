@@ -1,57 +1,331 @@
 <html lang="en">
+	<script>
+		function includeHTML() {
+		  var z, i, elmnt, file, xhttp;
+		  /* Loop through a collection of all HTML elements: */
+		  z = document.getElementsByTagName("*");
+		  for (i = 0; i < z.length; i++) {
+			elmnt = z[i];
+			/*search for elements with a certain atrribute:*/
+			file = elmnt.getAttribute("w3-include-html");
+			if (file) {
+			  /* Make an HTTP request using the attribute value as the file name: */
+			  xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (this.readyState == 4) {
+				  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+				  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+				  /* Remove the attribute, and call this function once more: */
+				  elmnt.removeAttribute("w3-include-html");
+				  includeHTML();
+				}
+			  }
+			  xhttp.open("GET", file, true);
+			  xhttp.send();
+			  /* Exit the function: */
+			  return;
+			}
+		  }
+		}
+</script> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+	<title>Thomas Tony</title>
+</head>
+<body>
+	<br />
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<div class="backg1" id="container">
+    <base target="_blank">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<!----------------------------------------------------------------------->
+<!------------------------------- Header -------------------------------->
+<!----------------------------------------------------------------------->
+<!--------------------- Desktop Version of beginning -------------------->
+<div>
+	<div class="laptop-opening ipad-opening mobile-opening mobilehorizontal-opening">
+		<div class="headerDesktop">
+			<img class="background-image" src="Bilder/impressum.jpg" style="width: 100%; height:350pt; object-fit: cover;
+			object-position: 0% 70%">
+			<div class="overlay-text-namedesktop">    
+				<h1>Thomas Tony</h1>
+			</div>
+			<div class="overlay-text">	
+				<div class="row">
+					<div class="column left120">
+						<a href="index.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="B1">Home</h4></button> </h3></a>
+					</div>
+					<div class="column left120">
+						<a href="publications.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="B1">Publications</h4></button> </h3></a>
+					</div>
+					<div class="column left120">
+						<a href="activities.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="B1">Activity</h4></button> </h3></a>
+					</div>
+					<div class="column left120">
+						<a href="teaching.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="B1">Teaching</h4></button> </h3></a>
+					</div>
+					<div class="column left120">
+						<a href="cv.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="B1">CV</h4></button> </h3></a>
+					</div>
+				</div>
+			</div>
+			<div class="overlay-text-email-desktop">		
+				<div class="row">
+					<div class="columnright right120">
+						<h3>
+							<a href="mailto:&#116&#104&#111&#109&#97&#115&#46&#116&#111&#110&#121&#64&#117&#110&#105&#45&#109&#117&#101&#110&#115&#116&#101&#114&#46&#100&#101" class="big-link"><h3><button class="button button8"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://scholar.google.de/citations?hl=de&user=skxFHggAAAAJ" class="big-link"><h3><button class="button button8"><img src="120px-Google_Scholar_logo.svg.png" height="25"></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://arxiv.org/a/tony_t_1.html" class="big-link"><h3><button class="button button8"> <img src="arxiv-logo-twitter-icon-small.png" height="25"></i></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://orcid.org/0009-0006-8199-6322" class="big-link"><h3><button class="button button8"><i class="fa fa-orcid fa-2x" style="color: #73d216;"></i></button> </h3></a>	
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+<!----------------------------------------------------------------------->
+<!------------------------- Desktop cv ------------------------------>
+<!----------------------------------------------------------------------->
+<div w3-include-html="Inhalt/impressum.html" class="padding2"></div>
+</div>
+<!--------------------- Laptop Version of beginning -------------------->
+<div>
+	<div class="desktop-opening ipad-opening mobile-opening mobilehorizontal-opening">
+		<div class="headerLaptop">
+			<img class="background-image" src="Bilder/impressum.jpg" style="width: 100%; height:300pt; object-fit: cover;
+			object-position: 0% 75%">
+			<div class="overlay-text-namelaptop">    
+				<h1>Thomas Tony</h1>
+			</div>
+			<div class="overlay-text-laptop">	
+				<div class="row">
+					<div class="column left120">
+						<a href="index.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="Blaptop">Home</h4></button> </h3></a>
+					</div>
+					<div class="column left120">
+						<a href="publications.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="Blaptop">Publications</h4></button> </h3></a>
+					</div>
+					<div class="column left120">
+						<a href="activities.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="Blaptop">Activity</h4></button> </h3></a>
+					</div>
+					<div class="column left120">
+						<a href="teaching.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="Blaptop">Teaching</h4></button> </h3></a>
+					</div>
+					<div class="column left120">
+						<a href="cv.html" class="big-link"   target="_self"><h3><button class="button button11"><h4 class="Blaptop">CV</h4></button> </h3></a>
+					</div>
+				</div>
+			</div>
+			<div class="overlay-text-email-laptop">		
+				<div class="row">
+					<div class="columnright right120">
+						<h3>
+							<a href="mailto:&#116&#104&#111&#109&#97&#115&#46&#116&#111&#110&#121&#64&#117&#110&#105&#45&#109&#117&#101&#110&#115&#116&#101&#114&#46&#100&#101" class="big-link"><h3><button class="button button8"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://scholar.google.de/citations?hl=de&user=skxFHggAAAAJ" class="big-link"><h3><button class="button button8"><img src="120px-Google_Scholar_logo.svg.png" height="25"></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://arxiv.org/a/tony_t_1.html" class="big-link"><h3><button class="button button8"> <img src="arxiv-logo-twitter-icon-small.png" height="25"></i></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://orcid.org/0009-0006-8199-6322" class="big-link"><h3><button class="button button8"><i class="fa fa-orcid fa-2x" style="color: #73d216;"></i></button> </h3></a>	
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+<!----------------------------------------------------------------------->
+<!------------------------- Laptop cv ------------------------------>
+<!----------------------------------------------------------------------->
+<div w3-include-html="Inhalt/impressum.html" class="paddinglaptop"></div>
+</div>
+<!---------------------- Ipad Version of beginning ------------------------->
+<div>
+	<div class="desktop-opening laptop-opening mobile-opening mobilehorizontal-opening">
+		<div class="HeaderIpad" style="margin-top: -30px;">
+			<img class="background-image" src="Bilder/impressum.jpg" style="width: 100%; height:250pt; object-fit: cover;
+			object-position: 0% 75%;">
+			<div class="overlay-text-namelaptop">    
+				<h1>Thomas Tony</h1>
+			</div>
+			<div class="overlay-text-laptop">	
+				<div class="row">
+					<div class="column left100pt">
+						<h3><button class="button button6"><a style="color: black" href="index.html" target="_self"><h4 class="Blaptop">Home</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button6"><a style="color: black" href="publications.html" target="_self"><h4 class="Blaptop">Publications</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button6"><a style="color: black" href="activities.html" target="_self"><h4 class="Blaptop">Activity</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button6"><a style="color: black" href="teaching.html" target="_self"><h4 class="Blaptop">Teaching</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button6"><a style="color: black" href="cv.html" target="_self"><h4 class="Blaptop">CV</h4></a></button> </h3>
+					</div>
+				</div>
+			</div>
+			<div class="overlay-text-email-laptop">		
+				<div class="row">
+					<div class="columnright right120">
+						<h3>
+							<a href="mailto:&#116&#104&#111&#109&#97&#115&#46&#116&#111&#110&#121&#64&#117&#110&#105&#45&#109&#117&#101&#110&#115&#116&#101&#114&#46&#100&#101" class="big-link"><h3><button class="button button8"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://scholar.google.de/citations?hl=de&user=skxFHggAAAAJ" class="big-link"><h3><button class="button button8"><img src="120px-Google_Scholar_logo.svg.png" height="25"></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://arxiv.org/a/tony_t_1.html" class="big-link"><h3><button class="button button8"> <img src="arxiv-logo-twitter-icon-small.png" height="25"></i></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://orcid.org/0009-0006-8199-6322" class="big-link"><h3><button class="button button8"><i class="fa fa-orcid fa-2x" style="color: #73d216;"></i></button> </h3></a>	
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div> 
+<!----------------------------------------------------------------------->
+<!------------------------- Ipad cv ------------------------------>
+<!----------------------------------------------------------------------->
+<div w3-include-html="Inhalt/impressum.html" class="paddinglaptop"></div>
+</div>
+<!-------------------------- Mobile Horizontal Version of beginning ----------------------->
+<div>	
+	<div class="desktop-opening laptop-opening ipad-opening mobile-opening">
+		<div class="headerMobile" style="margin-top: -30px;">
+			<img class="background-image" src="Bilder/impressum.jpg" style="width: 100%; height:200pt; object-fit: cover;
+				object-position: 0% 80%;">
+			<div class="overlay-text-namemobile">    
+				<h1 style="line-height: 45px;">TT</h1>
+			</div>
+			<div class="overlay-text-mobile">	
+				<div class="row padding3">
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="index.html" target="_self"><h4 class="B3">Home</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="publications.html" target="_self"><h4 class="B3">Publications</h4></a></button> </h3>
+					</div>
+				</div>
+				<div class="row padding3">
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="activities.html" target="_self"><h4 class="B3">Activity</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="teaching.html" target="_self"><h4 class="B3">Teaching</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="cv.html" target="_self"><h4 class="B3">CV</h4></a></button> </h3>
+					</div>
+				</div>
+			</div>
+			<div class="overlay-text-email-mobileHorizontal">		
+				<div class="row padding4">
+					<div class="columnright right120">
+						<h3>
+							<a href="mailto:&#116&#104&#111&#109&#97&#115&#46&#116&#111&#110&#121&#64&#117&#110&#105&#45&#109&#117&#101&#110&#115&#116&#101&#114&#46&#100&#101" class="big-link"><h3><button class="button button16"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://scholar.google.de/citations?hl=de&user=skxFHggAAAAJ" class="big-link"><h3><button class="button button16"><img src="120px-Google_Scholar_logo.svg.png" height="25"></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://arxiv.org/a/tony_t_1.html" class="big-link"><h3><button class="button button16"> <img src="arxiv-logo-twitter-icon-small.png" height="25"></i></button> </h3></a>	
+						</h3>
+					</div>
+					<div class="columnright right120">
+						<h3>
+							<a href="https://orcid.org/0009-0006-8199-6322" class="big-link"><h3><button class="button button16"><i class="fa fa-orcid fa-2x" style="color: #73d216;"></i></button> </h3></a>	
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+<!----------------------------------------------------------------------->
+<!------------------------- Mobile Horizontal cv ------------------------------>
+<!----------------------------------------------------------------------->
+	<div w3-include-html="Inhalt/impressum.html" class="padding3"></div>
+</div>
+<!-------------------------- Mobile Version of beginning ----------------------->
+<div>	
+	<div class="desktop-opening laptop-opening ipad-opening mobilehorizontal-opening">
+		<div class="headerMobile" style="margin-top: -30px;">
+			<img class="background-image" src="Bilder/impressum.jpg" style="width: 100%; height:200pt; object-fit: cover;
+				object-position: 20% 90%;">
+			<div class="overlay-text-namemobile">    
+				<h1 style="line-height: 45px;">TT</h1>
+			</div>
+			<div class="overlay-text-mobile">	
+				<div class="row padding3">
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="index.html" target="_self"><h4 class="B3">Home</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="publications.html" target="_self"><h4 class="B3">Publications</h4></a></button> </h3>
+					</div>
+				</div>
+				<div class="row padding3">
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="activities.html" target="_self"><h4 class="B3">Activity</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="teaching.html" target="_self"><h4 class="B3">Teaching</h4></a></button> </h3>
+					</div>
+					<div class="column left100pt">
+						<h3><button class="button button12"><a style="color: black" href="cv.html" target="_self"><h4 class="B3">CV</h4></a></button> </h3>
+					</div>
+				</div>
+			</div>
+			<div class="overlay-text-email-mobile">		
+				<h3>
+					<a href="mailto:&#116&#104&#111&#109&#97&#115&#46&#116&#111&#110&#121&#64&#117&#110&#105&#45&#109&#117&#101&#110&#115&#116&#101&#114&#46&#100&#101" class="big-link"><h3><button class="button button16"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></button> </h3></a>	
+				</h3>
+			</div>
+		</div>
+<!----------------------------------------------------------------------->
+<!------------------------- Mobile cv ------------------------------>
+<!----------------------------------------------------------------------->
+	<div w3-include-html="Inhalt/impressum.html" class="padding3"></div>
+</div>
+<!----------------------------------------------------------------------->
+<!------------------------------ Footer --------------------------------->
+<!----------------------------------------------------------------------->	
+<span w3-include-html="footer.html"></span>
 
-    <head>
-<!-- This asks your browser for the size of the window, it's necessary to write an adaptive .css code --->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="all" href="style.css" />
-	<title>Impressum</title>
-    </head>
-    <body>
-		<br />
-<!-- this loads MathJax, so you can display math with LaTeX on your webpage; it has to be loaded inside <body> -->
-        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-		<div class="backg1" id="container">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-		<div class="paddingimpressumg">
-<center>
-	<a href="https://ttony.eu/" ><h3><button class="button button6" style="color: black"><h3>BACK TO HOMEPAGE</h3></button> </h3> </a>
-</center> 
-
-<h3 style="border-top: 2px solid gray; margin-top: 1em;">Copyright information</h3>
-The profile picture and the surf picture are taken by <a href="https://www.xing.com/profile/Monja_Schmidle/cv">Monja Schmidle</a>. The background used in the desktop version is designed by <a href="https://guglieri.com/">Claudio Guglieri</a>.  
-
-<h3 style="border-top: 2px solid gray; margin-top: 1em;">Impressum</h3>
-	<pstyle="margin-top: 0;>
-		Thomas Tony<br />
-	 	Mathematisches Institut<br />
-	 	Einsteinstrasse 62 <br />
-	 	48149 Münster <br />
-	 	Germany 
-	 </p> 
-	 
-<h3 style="border-top: 2px solid gray; margin-top: 1em;">Kontakt</h3>
-		E-Mail: <a href="mailto:&#116&#104&#111&#109&#97&#115&#46&#116&#111&#110&#121&#64&#117&#110&#105&#45&#109&#117&#101&#110&#115&#116&#101&#114&#46&#100&#101">firstname 'dot' surname 'at' uni-muenster 'dot' de</a>
-		</p>
-
-<h3 style="border-top: 2px solid gray; margin-top: 1em;">Disclaimer – rechtliche Hinweise</h3>
-				§ 1 Warnhinweis zu Inhalten<br />
-					Die kostenlosen und frei zugänglichen Inhalte dieser Webseite wurden mit größtmöglicher Sorgfalt erstellt. Der Anbieter dieser Webseite übernimmt jedoch keine Gewähr für die Richtigkeit und Aktualität der bereitgestellten kostenlosen und frei zugänglichen journalistischen Ratgeber und Nachrichten. Namentlich gekennzeichnete Beiträge geben die Meinung des jeweiligen Autors und nicht immer die Meinung des Anbieters wieder. Allein durch den Aufruf der kostenlosen und frei zugänglichen Inhalte kommt keinerlei Vertragsverhältnis zwischen dem Nutzer und dem Anbieter zustande, insoweit fehlt es am Rechtsbindungswillen des Anbieters.<br />
-						<br />
-							§ 2 Externe Links<br />
-								Diese Website enthält Verknüpfungen zu Websites Dritter ("externe Links"). Diese Websites unterliegen der Haftung der jeweiligen Betreiber. Der Anbieter hat bei der erstmaligen Verknüpfung der externen Links die fremden Inhalte daraufhin überprüft, ob etwaige Rechtsverstöße bestehen. Zu dem Zeitpunkt waren keine Rechtsverstöße ersichtlich. Der Anbieter hat keinerlei Einfluss auf die aktuelle und zukünftige Gestaltung und auf die Inhalte der verknüpften Seiten. Das Setzen von externen Links bedeutet nicht, dass sich der Anbieter die hinter dem Verweis oder Link liegenden Inhalte zu Eigen macht. Eine ständige Kontrolle der externen Links ist für den Anbieter ohne konkrete Hinweise auf Rechtsverstöße nicht zumutbar. Bei Kenntnis von Rechtsverstößen werden jedoch derartige externe Links unverzüglich gelöscht.<br />
-									<br />
-										§ 3 Urheber- und Leistungsschutzrechte<br />
-											Die auf dieser Website veröffentlichten Inhalte unterliegen dem deutschen Urheber- und Leistungsschutzrecht. Jede vom deutschen Urheber- und Leistungsschutzrecht nicht zugelassene Verwertung bedarf der vorherigen schriftlichen Zustimmung des Anbieters oder jeweiligen Rechteinhabers. Dies gilt insbesondere für Vervielfältigung, Bearbeitung, Übersetzung, Einspeicherung, Verarbeitung bzw. Wiedergabe von Inhalten in Datenbanken oder anderen elektronischen Medien und Systemen. Inhalte und Rechte Dritter sind dabei als solche gekennzeichnet. Die unerlaubte Vervielfältigung oder Weitergabe einzelner Inhalte oder kompletter Seiten ist nicht gestattet und strafbar. Lediglich die Herstellung von Kopien und Downloads für den persönlichen, privaten und nicht kommerziellen Gebrauch ist erlaubt.<br />
-												<br />
-													Die Darstellung dieser Website in fremden Frames ist nur mit schriftlicher Erlaubnis zulässig.<br />
-														<br />
-															§ 4 Besondere Nutzungsbedingungen<br />
-																Soweit besondere Bedingungen für einzelne Nutzungen dieser Website von den vorgenannten Paragraphen abweichen, wird an entsprechender Stelle ausdrücklich darauf hingewiesen. In diesem Falle gelten im jeweiligen Einzelfall die besonderen Nutzungsbedingungen.<p>Quelle: <a href="https://www.juraforum.de/impressum-generator/">Impressum Generator von JuraForum.de</a></p>
-
-
-<center>
-	<a href="https://ttony.eu/" ><h3><button class="button button6" style="color: black"><h3>BACK TO HOMEPAGE</h3></button> </h3> </a>
-</center> 																
-</div></div></div> <br />
-    </body>
-</html>
+	<script>
+		includeHTML();
+	</script>
+	</body>
+	</html>
