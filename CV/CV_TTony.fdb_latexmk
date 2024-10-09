@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber CV_TTony"] 1716380836 "CV_TTony.bcf" "CV_TTony.bbl" "CV_TTony" 1721907850
+["biber CV_TTony"] 1716380836 "CV_TTony.bcf" "CV_TTony.bbl" "CV_TTony" 1728476048
   "CV_TTony.bcf" 1721907849 101581 a762ebb3c1ff26eebbb297e5e9154af7 "pdflatex"
   "literatur-cv.bib" 1707471127 1285 d81f31dd689780c09034cdcf2cc51295 ""
   (generated)
-  "CV_TTony.bbl"
   "CV_TTony.blg"
-["pdflatex"] 1721907848 "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.pdf" "CV_TTony" 1721907850
+  "CV_TTony.bbl"
+["pdflatex"] 1721907848 "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.pdf" "CV_TTony" 1728476048
   "/etc/texmf/web2c/texmf.cnf" 1665502556 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.aux" 1721907849 4196 0a0badd0cc8178d505766d4a8ea7c4fd ""
   "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" 1721907848 9037 c7c0483c78f4aba6b3ab7e012757b69c ""
@@ -256,11 +256,11 @@
   "CV_TTony.run.xml" 1721907849 2400 4bbbe336cd771da252d3dd6a824ab9ef "pdflatex"
   "CV_TTony.tex" 1721907848 9037 c7c0483c78f4aba6b3ab7e012757b69c ""
   (generated)
-  "CV_TTony.bcf"
-  "CV_TTony.pdf"
-  "CV_TTony.run.xml"
-  "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.pdf"
-  "CV_TTony.log"
-  "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.log"
-  "CV_TTony.aux"
   "CV_TTony.out"
+  "CV_TTony.run.xml"
+  "CV_TTony.log"
+  "CV_TTony.bcf"
+  "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.pdf"
+  "CV_TTony.aux"
+  "/home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.log"
+  "CV_TTony.pdf"
