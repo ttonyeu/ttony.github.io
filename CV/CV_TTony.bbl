@@ -18,7 +18,66 @@
 
 
 \refsection{0}
-  \datalist[entry]{ydnt/global//global/global}
+  \datalist[entry]{nty/global//global/global}
+    \entry{T1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
+           family={{Tony}},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Albert-Ludwigs Universität Freiburg}%
+      }
+      \strng{namehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{fullhash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{bibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authorbibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://ttony.eu/documents/thesis-state-exam.pdf}}
+      \field{note}{State exam's thesis (accepted as Bachelor's thesis as well), advisor: \href{https://www.maths.tcd.ie/~wendland/}{K.~Wendland}, University of Freiburg}
+      \field{title}{{Die Riemannsche Vermutung und die Primzahlverteilung}}
+      \field{year}{2019}
+      \true{nocite}
+      \keyw{thesis}
+    \endentry
+    \entry{T4}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
+           family={{Tony}},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{fullhash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{bibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authorbibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.DG}
+      \field{eprinttype}{arXiv}
+      \field{note}{Preprint}
+      \field{title}{A note on Ricci-flat manifolds, parallel spinors and the Rosenberg index}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2411.03882
+      \endverb
+      \keyw{preprint}
+    \endentry
     \entry{T3}{misc}{}
       \name{author}{1}{}{%
         {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
@@ -33,14 +92,15 @@
       \strng{authorbibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
       \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{math.DG}
       \field{eprinttype}{arXiv}
-      \field{howpublished}{To appear in J. Funct. Anal.}
+      \field{month}{2}
+      \field{note}{To appear in J. Funct. Anal.}
       \field{title}{Scalar curvature rigidity and the higher mapping degree}
       \field{year}{2024}
       \true{nocite}
@@ -66,44 +126,15 @@
       \strng{authorbibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
       \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extraname}{4}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://ttony.eu/documents/thesis-master.pdf}}
       \field{note}{Master's thesis, advisor: \href{https://home.mathematik.uni-freiburg.de/ngrosse/}{N.~Große}, University of Freiburg}
       \field{title}{{The End-Periodic Index Theorem for Dirac Operators and its Connection to the Classical Atiyah-Patodi-Singer Index Theorem}}
       \field{year}{2022}
-      \true{nocite}
-      \keyw{thesis}
-    \endentry
-    \entry{T1}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
-           family={{Tony}},
-           familyi={T\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Albert-Ludwigs Universität Freiburg}%
-      }
-      \strng{namehash}{52bb7ea896f396e3b70e3829a74da0bc}
-      \strng{fullhash}{52bb7ea896f396e3b70e3829a74da0bc}
-      \strng{bibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
-      \strng{authorbibnamehash}{52bb7ea896f396e3b70e3829a74da0bc}
-      \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
-      \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://ttony.eu/documents/thesis-state-exam.pdf}}
-      \field{note}{State exam's thesis (accepted as Bachelor's thesis as well), advisor: \href{https://www.maths.tcd.ie/~wendland/}{K.~Wendland}, University of Freiburg}
-      \field{title}{{Die Riemannsche Vermutung und die Primzahlverteilung}}
-      \field{year}{2019}
       \true{nocite}
       \keyw{thesis}
     \endentry

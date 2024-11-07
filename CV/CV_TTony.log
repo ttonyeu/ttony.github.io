@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.27)  5 NOV 2024 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.27)  7 NOV 2024 08:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1164,18 +1164,18 @@ Package logreq Info: Writing requests to 'CV_TTony.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35729 strings out of 481239
- 665949 string characters out of 5920377
- 1318156 words of memory out of 5000000
- 50297 multiletter control sequences out of 15000+600000
+ 35732 strings out of 481239
+ 666044 string characters out of 5920377
+ 1318183 words of memory out of 5000000
+ 50299 multiletter control sequences out of 15000+600000
  587737 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,12n,71p,1220b,1651s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on /home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.pdf (2 pages, 182764 bytes).
+Output written on /home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.pdf (2 pages, 183529 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
  19701 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -106,9 +106,11 @@
 \usepackage[%
 backend=biber,
 defernumbers=true,
-sorting=ydnt,         % Sort by year (descending), name, title
+%sorting=ydnt,         % Sort by year (descending), name, title
 % sorting=none,         % Do not sort at all. All entries are processed in citation order.
 ]{biblatex}
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryCitekey{\clearfield{month}}
 \addbibresource{literatur-cv.bib} % to use bib file created with filecontents
 
 
