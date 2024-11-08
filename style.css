@@ -111,7 +111,7 @@ cursor: pointer;
 .button1 {border-radius: 2px;}
 .button2 {border-radius: 4px;}
 .button3 {border-radius: 8px;}
-.button4 {border-radius: 12px;}
+.button4 {border-radius: 12px; padding: 2px 6px}
 .button5 {border-radius: 50%;}
 .button6 {font-size: .83em; text-align: left; border-radius: 0px;height: 35px; width: 100%; border: 0px ;}
 .button7 {border-radius: 12px;height: 40px; width: 100%; border: 2px solid #003366;}

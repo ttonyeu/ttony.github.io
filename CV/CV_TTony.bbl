@@ -78,7 +78,7 @@
       \endverb
       \keyw{preprint}
     \endentry
-    \entry{T3}{misc}{}
+    \entry{T3}{article}{}
       \name{author}{1}{}{%
         {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
            family={{Tony}},
@@ -99,15 +99,22 @@
       \field{labeltitlesource}{title}
       \field{eprintclass}{math.DG}
       \field{eprinttype}{arXiv}
+      \field{issn}{0022-1236}
+      \field{journaltitle}{Jounal of Functional Analysis}
       \field{month}{2}
-      \field{note}{To appear in J. Funct. Anal.}
       \field{title}{Scalar curvature rigidity and the higher mapping degree}
       \field{year}{2024}
       \true{nocite}
-      \verb{eprint}
-      \verb 2402.05834
+      \verb{doi}
+      \verb 10.1016/j.jfa.2024.110744
       \endverb
-      \keyw{preprint}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022123624004324
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022123624004324
+      \endverb
+      \keyw{article}
     \endentry
     \entry{T2}{misc}{}
       \name{author}{1}{}{%
