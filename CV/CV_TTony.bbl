@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.1 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -38,7 +38,7 @@
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
       \field{extraname}{1}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://ttony.eu/documents/thesis-state-exam.pdf}}
@@ -64,7 +64,7 @@
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
       \field{extraname}{2}
       \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{math.DG}
@@ -94,7 +94,7 @@
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
       \field{extraname}{3}
       \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{math.DG}
@@ -102,8 +102,11 @@
       \field{issn}{0022-1236}
       \field{journaltitle}{Jounal of Functional Analysis}
       \field{month}{2}
+      \field{note}{To appear}
+      \field{number}{3}
       \field{title}{Scalar curvature rigidity and the higher mapping degree}
-      \field{year}{2024}
+      \field{volume}{288}
+      \field{year}{2025}
       \true{nocite}
       \verb{doi}
       \verb 10.1016/j.jfa.2024.110744
@@ -135,7 +138,7 @@
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
       \field{extraname}{4}
       \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://ttony.eu/documents/thesis-master.pdf}}
