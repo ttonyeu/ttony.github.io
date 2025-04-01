@@ -1,11 +1,11 @@
-\setlength{\hintscolumnwidth}{2.5cm}
+\setlength{\hintscolumnwidth}{3cm}
 
 \definecolor{color2}{rgb}{0,0,0} %black
 % \definecolor{urlcolor}{rgb}{0.2,0.2,0.2} %dark gray
 
 \renewcommand*{\hintfont}{}
-\renewcommand*{\cvitem}[3][.25em]{%
-	\begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}p{\maincolumnwidth-\hintscolumnwidth-1em}@{}}%
+\renewcommand*{\cvitem}[3][.5em]{%
+	\begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{0.75em}}p{\maincolumnwidth-\hintscolumnwidth-1em}@{}}%
 		\raggedleft\hintstyle{#2} &{#3}%
 	\end{tabular}%
 	\par\addvspace{#1}}
@@ -22,7 +22,7 @@
 	
 \usepackage{xpatch}
 \xpatchcmd{\cventry}{\slshape#4}{#4}{}{}										%kein Kursiv in Einträgen
-\xpatchcmd{\cventry}{\bfseries}{}{\mdseries}{}{}{}{}							%kein Fett in Einträgen
+\xpatchcmd{\cventry}{\bfseries}{}{\mdseries}{}{}{}{}						%kein Fett in Einträgen
 
 
 
@@ -43,7 +43,16 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Geometry und Seitenzahl %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[a4paper, scale=0.8, foot=2cm]{geometry}
-\fancyfoot[c]{\thepage}
+
+\usepackage{fancyhdr}
+\AfterEndPreamble{%
+  \fancypagestyle{plain}{
+	\fancyhf{} 
+	\fancyfoot[c]{\thepage}
+  }
+  \pagestyle{plain}
+}
+
 
 
 \newcommand{\ExternalLink}{%
