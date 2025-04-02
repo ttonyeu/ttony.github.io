@@ -9,9 +9,206 @@
 \documentclass[10pt, colorlinks, sans]{moderncv}
 \newcommand{\red}{\textcolor{orange}} %Achtung, nochmal draufschauen
 
-\input{1.Praeambel} %Präambel: Packete und alle Definitionen 
-\input{2.Allgemeine Eingaben.tex} %Allgemeine Angaben, Einstellungen, Persönliche Daten,...
-\input{3.Praeambel} %Alles Kurz vor begin Dokument
+%----------------------------------------------------------------------------------------------------------------------
+%                                              Packete
+%----------------------------------------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%    German  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[ngerman]{babel}
+\usepackage[USenglish]{babel}
+\usepackage[singlespacing]{setspace}
+
+
+%%%%%%%%%%%%%%%%% Allgemeines %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{pdfpages}
+\usepackage{footmisc}
+\usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage[fixed]{fontawesome5} 
+\usepackage{url}
+
+\usepackage{tikz}
+	\usetikzlibrary{fadings,patterns,positioning,fit,calc}
+	\tikzset{zero sep/.style = {inner sep=0pt, outer sep=0pt}}
+
+%%%%%%%%%%%%%%%%% Abkürzungen von mir %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%% Spezielles - Modercv Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{datetime} %Datumangaben unter der Jahreszahl
+	\def\dates[#1.#2-#3.#4]{\yearabove{\monthname[#1]}{#2}--\yearabove{\monthname[#3]}{#4}}
+	\newcommand{\yearabove}[2]{\parbox[t]{10mm}{\centering{#2\par\vspace{-2mm} \tiny{#1}}}}	
+	
+\newcommand*{\cventryE}[6]{% %Spezielle Kontruktion für Arbeitswechsel von Lörrach nach Freiburg
+	\cvline{#1}{%
+		{\bfseries#2}%
+		\ifx#3\else{ {\slshape#3}}\fi%
+		\ifx#4\else{, #4}\fi%
+		\ifx#5\else{, #5}\fi%
+		\ifx#6\else{\newline{}\begin{minipage}[t]{\linewidth}\small#6\
+				end{minipage}}\fi
+	}}%
+	
+\setlength{\footskip}{136.00005pt}
+
+\ifxetexorluatex
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Latin Modern Roman}
+\setsansfont{Latin Modern Sans}
+\setmonofont{Latin Modern Mono}
+\setmathfont{Latin Modern Math} 
+\else
+\fi
+
+\newcommand{\Datum}{\today}
+
+%--------------------------------------------------------------------------------------------------------------------------------
+%                                                  Definitionen
+%----------------------------------------------------------------------------------------------------------------------------------
+
+\makeatletter
+\newcommand{\Unterschrift}{\@firstname ~\@familyname}
+\makeatother
+	
+\makeatletter
+	\newcommand\@pnumwidth{1.55em}
+	\newcommand\@tocrmarg{2.55em}
+	\newcommand\@dotsep{4.5}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Aufzählung Teaching %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand*{\cvauf}[4][.25em]{%
+	\cvitem[#1]{#2}{%
+	\begin{tabular*}{\textwidth-\hintscolumnwidth-1em}{@{\extracolsep{\fill}} l l} #3 & #4 \end{tabular*}}}
+
+\usepackage[%
+backend=biber,
+defernumbers=true,
+%sorting=ydnt,         % Sort by year (descending), name, title
+sorting=none,         % Do not sort at all. All entries are processed in citation order.
+]{biblatex}
+%
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryCitekey{\clearfield{month}}
+\AtEveryBibitem{\clearfield{issn}}
+\AtEveryBibitem{\clearfield{url}}
+\addbibresource{literatur-cv.bib} % to use bib file created with filecontents
+
+%----------------------------------------------------------------------------------------------------------------------------------
+%                                                   Eingaben
+%----------------------------------------------------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Styl und Farbe %%%%%%%%%%%%%%%%%%%%%%%%
+\moderncvstyle{banking}   
+
+\definecolor{myCustomColor}{rgb}{0.0, 0.2, 0.4} %Dunkelblau
+\colorlet{colorLink}{myCustomColor}        
+\colorlet{color1}{black} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Persöhnliche Daten %%%%%%%%%%%%%%%%%%%%   
+
+%\input{addborntomoderncv.tex}  % Fügt Geburtstag wieder hinzu 
+
+\renewcommand*{\makeheaddetailssymbol}{~~~}
+
+\name{Thomas}{Tony} 
+\title{Curriculum vitae}                              
+\address{\hspace*{-2cm}\makebox[\textwidth][c]{Institut für Mathematik -- Universität Potsdam -- Karl-Liebknecht-Str.\ 24-25 -- 14476 Potsdam, Germany}\hspace*{-2cm}}
+%\phone{+49 251 83-36869}
+%\mobile{}                  
+\email{thomas.tony@uni-potsdam.de}
+\homepage{www.ttony.eu}
+\social[orcid]{0009-0006-8199-6322}
+\extrainfo{Last updated: \today}
+
+\setlength{\hintscolumnwidth}{3cm}
+
+\definecolor{color2}{rgb}{0,0,0} %black
+% \definecolor{urlcolor}{rgb}{0.2,0.2,0.2} %dark gray
+
+\renewcommand*{\hintfont}{}
+\renewcommand*{\cvitem}[3][.5em]{%
+	\begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{0.75em}}p{\maincolumnwidth-\hintscolumnwidth-1em}@{}}%
+		\raggedleft\hintstyle{#2} &{#3}%
+	\end{tabular}%
+	\par\addvspace{#1}}
+
+ \renewcommand*{\cventry}[7][.25em]{%
+	\cvitem[#1]{#2}{%
+		{#3}%
+		\ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+		\ifthenelse{\equal{#5}{}}{}{, #5}%
+		\ifthenelse{\equal{#6}{}}{}{, #6}%
+		.\strut%
+		\ifx&#7&%
+		\else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+	
+\usepackage{xpatch}
+\xpatchcmd{\cventry}{\slshape#4}{#4}{}{}										%kein Kursiv in Einträgen
+\xpatchcmd{\cventry}{\bfseries}{}{\mdseries}{}{}{}{}						%kein Fett in Einträgen
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Größe der Überschriften geändert %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand*{\sectionfont}{%
+	\if@norules%
+	\large\bfseries\scshape%
+	\else%
+	\large\bfseries\upshape\fi}
+\renewcommand*{\subsectionfont}{%
+	\if@norules%
+	\mdseries\itshape%
+	\else%
+	\upshape\fontseries{sb}\selectfont\fi}
+
+\renewcommand*{\namefont}{\huge\bfseries\upshape}
+\renewcommand*{\titlefont}{\huge\mdseries\upshape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Geometry und Seitenzahl %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[a4paper, scale=0.8, foot=2cm]{geometry}
+
+\usepackage{fancyhdr}
+\AfterEndPreamble{%
+  \fancypagestyle{plain}{
+	\fancyhf{} 
+	\fancyfoot[c]{\thepage}
+  }
+  \pagestyle{plain}
+}
+
+
+
+\newcommand{\ExternalLink}{%
+	\tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{% 
+		\begin{scope}[x=1ex, y=1ex]
+			\clip (-0.1,-0.1) 
+			--++ (-0, 1.2) 
+			--++ (0.6, 0) 
+			--++ (0, -0.6) 
+			--++ (0.6, 0) 
+			--++ (0, -1);
+			\path[draw, 
+			line width = 0.5, 
+			rounded corners=0.5] 
+			(0,0) rectangle (1,1);
+		\end{scope}
+		\path[draw, line width = 0.5] (0.5, 0.5) 
+		-- (1, 1);
+		\path[draw, line width = 0.5] (0.6, 1) 
+		-- (1, 1) -- (1, 0.6);
+	}
+}
+
+\makeatletter
+\@beginparpenalty=5000              % no pagebrake directly befor an itemize or enumerate...
+\clubpenalties=3 5000 5000 0        % Makes a pagebreak if section of theorem would have just two lines or less befor the pagebreak.                 % Prevents single entries at the top of a new page
+\makeatother
+
+\flushbottom
 
 \begin{document}
 \pagestyle{fancy}
@@ -105,6 +302,7 @@
 %
 \cventry{10/2023}{Autumn School on Large Scale Geometry\href{https://www.uni-goettingen.de/en/674786.html}{\footnotesize\faExternalLink*\!\!}}{Gong Talk given}{University of Göttingen}{}{}
 % 
+\pagebreak
 \cventry{08/2023}{Workshop on Curvature and Global Shape\href{https://www.uni-muenster.de/Diffgeo/cgs_2023/index.html}{\footnotesize\faExternalLink*\!\!}}{Poster presented}{Cluster of Excellence Mathematics Münster}{}{}
 %
 \cventry{04/2023}{\textit{Higher Structures in Geometry and Mathematical Physics}\href{https://conferences.cirm-math.fr/2697.html}{\footnotesize\faExternalLink*\!\!}}{Centre International de Rencontres Mathématiques}{Marseille}{}{}
@@ -124,7 +322,7 @@
 %\setlength{\hintscolumnwidth}{2.5cm}
 %
 \subsection{University of Münster }
-\cventry{Winter 2024/25}{\textit{Differential Geometry PhD Seminar}}{}{}{}{}
+\cventry{Winter 2024/25}{\textit{Differential Geometry PhD Seminar}}{organizer}{}{}{}
 \cventry{Summer 2023}{\textit{Differential Equations}}{Tutor}{Lecture given by \href{https://www.uni-muenster.de/IVV5WS/WebHop/user/laat/}{T. de Laat}}{}{}
 %
 \subsection{University of Freiburg (as a tutor) }
@@ -148,19 +346,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %------------------- Academic service  -----------%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Academic sercives}
-\cvitemwithcomment{Reviewer}{Science China Mathematics, zbMATH}{}{}{}{}
+\section{Academic services}
+\cvitemwithcomment{}{Reviewer for Science China Mathematics and zbMATH.}{}{}{}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %------------------- Language skills ------------------%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Language skills}
-\cvitemwithcomment{}{German (native), English (fluent), French (basic)}{}{}{}{}
+\cvitemwithcomment{}{German (native), English (fluent), French (basic).}{}{}{}{}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %------------------- Technical skills -----------------%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Technical skills}
-\cvitemwithcomment{}{Latex, Python, HTML, Linux}{}{}{}{}
+\cvitemwithcomment{}{Latex, Python, HTML, Linux.}{}{}{}{}
 
 %\nocite{*}
 %\printbibliography[title={Theses}, type=misc]

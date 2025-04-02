@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.8)  2 APR 2025 10:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.8)  2 APR 2025 11:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -139,7 +139,7 @@ Package: moderncvcompatibility 2022-02-21 v2.3.1 modern curriculum vitae and let
 \cvcolumnsautowidth=\skip66
 \cvcolumnautowidth=\skip67
 \bibindent=\skip68
-) (./1.Praeambel.tex (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -501,9 +501,6 @@ File: dt-USenglish.def 2013/09/10
 )
 \dt@a=\toks44
 \dt@b=\toks45
-) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
-Package: titletoc 2023/10/27 v2.16 TOC entries
-\ttl@leftsep=\dimen267
 ) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -523,7 +520,8 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count320
- (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 \c@tabx@nest=\count321
@@ -735,7 +733,7 @@ Package biblatex Info: ... and expl3
 (biblatex)             setting 'casechanger=expl3'.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-))) (./2.Allgemeine Eingaben.tex (/usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvstylebanking.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvstylebanking.sty
 Package: moderncvstylebanking 2022-02-21 v2.3.1 modern curriculum vitae and letter style scheme: banking
  (/usr/share/texmf/tex/latex/tex-gyre/tgpagella.sty
 Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
@@ -765,17 +763,17 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip94
 \multirow@cntb=\count446
 \multirow@dima=\skip95
-\bigstrutjot=\dimen268
+\bigstrutjot=\dimen267
 ) (/usr/share/texlive/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2019/02/21 v1.76 
-\dashlinedash=\dimen269
-\dashlinegap=\dimen270
+\dashlinedash=\dimen268
+\dashlinegap=\dimen269
 \adl@box=\box70
-\adl@height=\dimen271
-\adl@heightsave=\dimen272
-\adl@depth=\dimen273
-\adl@depthsave=\dimen274
-\adl@finaldepth=\dimen275
+\adl@height=\dimen270
+\adl@heightsave=\dimen271
+\adl@depth=\dimen272
+\adl@depthsave=\dimen273
+\adl@finaldepth=\dimen274
 \adl@columns=\count447
 \adl@ncol=\count448
 \adl@currentcolumn=\count449
@@ -787,7 +785,7 @@ Package: arydshln 2019/02/21 v1.76
 \adl@cla=\count455
 \adl@clb=\count456
 \adl@everyvbox=\toks46
-\adl@LTpagetotal=\dimen276
+\adl@LTpagetotal=\dimen275
 )
 \cvSkill@RectangleSize=\skip96
 \my@repeat@count=\count457
@@ -822,7 +820,7 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on in
 \cvitemwithcommentmainbox=\box71
 \cvitemwithcommentmainlength=\skip118
 \cvitemwithcommentcommentlength=\skip119
-))) (./3.Praeambel.tex (/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 ) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -832,16 +830,16 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count458
 \Gm@cntv=\count459
 \c@Gm@tempcnt=\count460
-\Gm@bindingoffset=\dimen277
-\Gm@wd@mp=\dimen278
-\Gm@odd@mp=\dimen279
-\Gm@even@mp=\dimen280
-\Gm@layoutwidth=\dimen281
-\Gm@layoutheight=\dimen282
-\Gm@layouthoffset=\dimen283
-\Gm@layoutvoffset=\dimen284
+\Gm@bindingoffset=\dimen276
+\Gm@wd@mp=\dimen277
+\Gm@odd@mp=\dimen278
+\Gm@even@mp=\dimen279
+\Gm@layoutwidth=\dimen280
+\Gm@layoutheight=\dimen281
+\Gm@layouthoffset=\dimen282
+\Gm@layoutvoffset=\dimen283
 \Gm@dimlist=\toks47
-)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -860,7 +858,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count461
 )
-\@linkdim=\dimen285
+\@linkdim=\dimen284
 \Hy@linkcounter=\count462
 \Hy@pagecounter=\count463
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -887,15 +885,15 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
 \c@Hy@tempcnt=\count465
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen286
+\XeTeXLinkMargin=\dimen285
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count466
-\Field@Width=\dimen287
-\Fld@charsize=\dimen288
+\Field@Width=\dimen286
+\Fld@charsize=\dimen287
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -929,8 +927,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip120
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 16.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 16.
+Package hyperref Info: Option `breaklinks' set `true' on input line 213.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 213.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
@@ -941,37 +939,37 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./CV_TTony.aux)
 \openout1 = `CV_TTony.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 213.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count474
-\scratchdimen=\dimen289
+\scratchdimen=\dimen288
 \scratchbox=\box72
 \nofMPsegments=\count475
 \nofMParguments=\count476
 \everyMPshowfont=\toks48
 \MPscratchCnt=\count477
-\MPscratchDim=\dimen290
+\MPscratchDim=\dimen289
 \MPnumerator=\count478
 \makeMPintoPDFobject=\count479
 \everyMPtoPDFconversion=\toks49
@@ -981,19 +979,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 16.
-Package microtype Info: Applying patch `item' on input line 16.
-Package microtype Info: Applying patch `toc' on input line 16.
-Package microtype Info: Applying patch `eqnum' on input line 16.
-Package microtype Info: Applying patch `footnote' on input line 16.
-Package microtype Info: Applying patch `verbatim' on input line 16.
+LaTeX Info: Redefining \microtypecontext on input line 213.
+Package microtype Info: Applying patch `item' on input line 213.
+Package microtype Info: Applying patch `toc' on input line 213.
+Package microtype Info: Applying patch `eqnum' on input line 213.
+Package microtype Info: Applying patch `footnote' on input line 213.
+Package microtype Info: Applying patch `verbatim' on input line 213.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 16.
+LaTeX Info: Redefining \showhyphens on input line 213.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1040,8 +1038,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CV_TTony.bbl' found.
  (./CV_TTony.bbl)
-Package biblatex Info: Reference section=0 on input line 16.
-Package biblatex Info: Reference segment=0 on input line 16.
+Package biblatex Info: Reference section=0 on input line 213.
+Package biblatex Info: Reference segment=0 on input line 213.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1066,7 +1064,7 @@ Package biblatex Info: Reference segment=0 on input line 16.
 * \footskip=56.9055pt
 * \marginparwidth=57.0pt
 * \marginparsep=11.0pt
-* \columnsep=20.0pt
+* \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -1077,59 +1075,59 @@ Package biblatex Info: Reference segment=0 on input line 16.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 16.
+Package hyperref Info: Link coloring ON on input line 213.
 (./CV_TTony.out) (./CV_TTony.out)
 \@outlinefile=\write5
 \openout5 = `CV_TTony.out'.
 
 \pagenumberwidth=\skip121
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 16.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 213.
 
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 19.
+(hyperref)                setting the option has no effect on input line 216.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <20.74> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 21.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 21.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 218.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 218.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 21.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 218.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <9> not available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 21.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 21.
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 218.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 218.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 21.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 218.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 21.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 218.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 21.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 218.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 21.
+(Font)              <10> on input line 218.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 21.
+(Font)              <7> on input line 218.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 21.
+(Font)              <5> on input line 218.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 27.
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 38.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 224.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 235.
 (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1142,56 +1140,56 @@ Package microtype Info: Loading generic protrusion settings for font family
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 126.
+(Font)              using `T1/lmss/b/n' instead on input line 324.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 126.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 324.
 
-Underfull \hbox (badness 10000) detected at line 126
+Underfull \hbox (badness 10000) detected at line 324
 \T1/lmss/m/n/7 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 130.
+(Font)              using `T1/lmss/b/n' instead on input line 328.
 
 
-Underfull \hbox (badness 10000) detected at line 130
+Underfull \hbox (badness 10000) detected at line 328
 \T1/lmss/m/n/7 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 133.
+(Font)              using `T1/lmss/b/n' instead on input line 331.
 
 
-Underfull \hbox (badness 10000) detected at line 133
+Underfull \hbox (badness 10000) detected at line 331
 \T1/lmss/m/n/7 .
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 152.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 350.
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 170.
+(Font)              using `T1/lmss/b/n' instead on input line 368.
 
 
-Underfull \hbox (badness 10000) detected at line 170
+Underfull \hbox (badness 10000) detected at line 368
 \T1/lmss/m/n/7 .
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 170.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 368.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 170.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 368.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 170.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 368.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1202,19 +1200,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 171.
+(Font)              using `T1/lmss/b/n' instead on input line 369.
 
 
-Underfull \hbox (badness 10000) detected at line 171
+Underfull \hbox (badness 10000) detected at line 369
 \T1/lmss/m/n/7 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 172.
+(Font)              using `T1/lmss/b/n' instead on input line 370.
 
 
-Underfull \hbox (badness 10000) detected at line 172
+Underfull \hbox (badness 10000) detected at line 370
 \T1/lmss/m/n/7 .
  []
 
@@ -1224,21 +1222,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `CV_TTony.out' has not changed.
-(rerunfilecheck)             Checksum: 71790EC7F7505C01C78AB729303171EB;3322.
+(rerunfilecheck)             Checksum: EADBC91FAFA340A2BF669957E62302D3;3322.
 Package logreq Info: Writing requests to 'CV_TTony.run.xml'.
 \openout1 = `CV_TTony.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36928 strings out of 474222
- 713104 string characters out of 5748734
- 1969975 words of memory out of 5000000
- 58467 multiletter control sequences out of 15000+600000
+ 36746 strings out of 474222
+ 710348 string characters out of 5748734
+ 1966975 words of memory out of 5000000
+ 58299 multiletter control sequences out of 15000+600000
  614544 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,12n,93p,1220b,1783s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,1199b,1783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on CV_TTony.pdf (3 pages, 265500 bytes).
+Output written on CV_TTony.pdf (3 pages, 265567 bytes).
 PDF statistics:
  228 PDF objects out of 1000 (max. 8388607)
  182 compressed objects within 2 object streams

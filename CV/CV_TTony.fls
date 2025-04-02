@@ -69,9 +69,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvcollection.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvcollection.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvcompatibility.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvcompatibility.sty
-INPUT ./1.Praeambel.tex
-INPUT ./1.Praeambel.tex
-INPUT 1.Praeambel.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
@@ -248,8 +245,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/datetime/dt-USenglish.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/datetime/dt-USenglish.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/datetime/dt-USenglish.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -290,9 +285,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-INPUT ./2.Allgemeine Eingaben.tex
-INPUT ./2.Allgemeine Eingaben.tex
-INPUT 2.Allgemeine Eingaben.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvstylebanking.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncvstylebanking.sty
 INPUT /usr/share/texmf/tex/latex/tex-gyre/tgpagella.sty
@@ -322,9 +314,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0regular.tfm
-INPUT ./3.Praeambel.tex
-INPUT ./3.Praeambel.tex
-INPUT 3.Praeambel.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
