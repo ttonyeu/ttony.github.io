@@ -1,9 +1,9 @@
-PWD /home/thomas-up/Dokumente/PhD/ttony.github.io/CV
+PWD /home/thomas/Dokumente/PhD/ttony.github.io/CV
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/thomas-up/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex
+INPUT /home/thomas/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex
 OUTPUT CV_TTony.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncv.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncv.cls
