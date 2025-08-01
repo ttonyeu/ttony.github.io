@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'CV_TTony.blg'
+[51] biber:340> INFO - === Fr Aug  1, 2025, 18:29:00
+[65] Biber.pm:419> INFO - Reading 'CV_TTony.bcf'
+[102] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[110] Biber.pm:4419> INFO - Processing section 0
+[117] Biber.pm:4610> INFO - Looking for bibtex file 'literatur-cv.bib' for section 0
+[118] bibtex.pm:1713> INFO - LaTeX decoding ...
+[122] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur-cv.bib'
+[174] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[174] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[174] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[174] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[183] bbl.pm:660> INFO - Writing 'CV_TTony.bbl' with encoding 'UTF-8'
+[185] bbl.pm:763> INFO - Output to CV_TTony.bbl
