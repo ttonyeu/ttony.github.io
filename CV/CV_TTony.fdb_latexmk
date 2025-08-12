@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber CV_TTony"] 1754065739.19846 "CV_TTony.bcf" "CV_TTony.bbl" "CV_TTony" 1754065770.20867 0
-  "CV_TTony.bcf" 1754065770.03938 106968 03766b737566bff9c582cf74b7f5566a "pdflatex"
+["biber CV_TTony"] 1754065739.19846 "CV_TTony.bcf" "CV_TTony.bbl" "CV_TTony" 1754988905.8774 0
+  "CV_TTony.bcf" 1754988905.79008 106968 03766b737566bff9c582cf74b7f5566a "pdflatex"
   "literatur-cv.bib" 1754043311 2281 7cf9f79a2ea781309b37216acd70f7fe ""
   (generated)
   "CV_TTony.bbl"
   "CV_TTony.blg"
   (rewritten before read)
-["pdflatex"] 1754065768.25305 "/home/thomas-up/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" "CV_TTony.pdf" "CV_TTony" 1754065770.20929 0
+["pdflatex"] 1754988903.57688 "/home/thomas-up/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" "CV_TTony.pdf" "CV_TTony" 1754988905.87764 0
   "/etc/texmf/web2c/texmf.cnf" 1748515424.35695 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/thomas-up/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" 1754065768.02839 17878 0e1d9586162d16c9db8b1fb7433e600e ""
+  "/home/thomas-up/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" 1754988903.32813 18123 5344f86f1194750a89b15447aafe5818 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -256,11 +256,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1748515453.84954 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1748515575 8214035 781b53d629bf088639cf4c9535025eaa ""
-  "CV_TTony.aux" 1754065770.03538 3258 38fb20aa0356dfce796189848a487eba "pdflatex"
+  "CV_TTony.aux" 1754988905.78708 3258 38fb20aa0356dfce796189848a487eba "pdflatex"
   "CV_TTony.bbl" 1754065740.37853 7798 57a0e9365368e6cfaee869219e555ad3 "biber CV_TTony"
-  "CV_TTony.out" 1754065770.03738 3479 dbf101a70ba8798c0d0f48f08861c6e3 "pdflatex"
-  "CV_TTony.run.xml" 1754065770.03938 2400 4bbbe336cd771da252d3dd6a824ab9ef "pdflatex"
-  "CV_TTony.tex" 1754065768.02839 17878 0e1d9586162d16c9db8b1fb7433e600e ""
+  "CV_TTony.out" 1754988905.78808 3479 dbf101a70ba8798c0d0f48f08861c6e3 "pdflatex"
+  "CV_TTony.run.xml" 1754988905.7922 2400 4bbbe336cd771da252d3dd6a824ab9ef "pdflatex"
+  "CV_TTony.tex" 1754988903.32813 18123 5344f86f1194750a89b15447aafe5818 ""
   (generated)
   "CV_TTony.aux"
   "CV_TTony.bcf"
