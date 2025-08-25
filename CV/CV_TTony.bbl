@@ -70,7 +70,7 @@
       \true{nocite}
       \keyw{report}
     \endentry
-    \entry{T4}{misc}{}
+    \entry{T4}{article}{}
       \name{author}{1}{}{%
         {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
            family={{Tony}},
@@ -91,14 +91,18 @@
       \field{labeltitlesource}{title}
       \field{eprintclass}{math.DG}
       \field{eprinttype}{arXiv}
-      \field{note}{Preprint}
+      \field{journaltitle}{SIGMA. Symmetry Integrability Geom. Methods Appl.}
+      \field{month}{8}
       \field{title}{Ricci-flat manifolds, parallel spinors and the Rosenberg index}
-      \field{year}{2024}
+      \field{volume}{21}
+      \field{year}{2025}
       \true{nocite}
-      \verb{eprint}
-      \verb 2411.03882
+      \field{pages}{Paper No. 072}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.3842/SIGMA.2025.072
       \endverb
-      \keyw{preprint}
+      \keyw{article}
     \endentry
     \entry{T3}{article}{}
       \name{author}{1}{}{%
