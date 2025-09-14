@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'CV_TTony.blg'
-[98] biber:340> INFO - === Mo Aug 25, 2025, 09:24:06
-[118] Biber.pm:419> INFO - Reading 'CV_TTony.bcf'
-[197] Biber.pm:976> INFO - Using all citekeys in bib section 0
-[214] Biber.pm:4419> INFO - Processing section 0
-[228] Biber.pm:4610> INFO - Looking for bibtex file 'literatur-cv.bib' for section 0
-[230] bibtex.pm:1713> INFO - LaTeX decoding ...
-[240] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur-cv.bib'
-[315] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[315] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[315] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[315] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[330] bbl.pm:660> INFO - Writing 'CV_TTony.bbl' with encoding 'UTF-8'
-[335] bbl.pm:763> INFO - Output to CV_TTony.bbl
+[93] biber:340> INFO - === So Sep 14, 2025, 18:08:18
+[110] Biber.pm:419> INFO - Reading 'CV_TTony.bcf'
+[170] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[181] Biber.pm:4419> INFO - Processing section 0
+[190] Biber.pm:4610> INFO - Looking for bibtex file 'literatur-cv.bib' for section 0
+[191] bibtex.pm:1713> INFO - LaTeX decoding ...
+[198] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur-cv.bib'
+[248] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[248] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[248] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[248] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[256] bbl.pm:660> INFO - Writing 'CV_TTony.bbl' with encoding 'UTF-8'
+[258] bbl.pm:763> INFO - Output to CV_TTony.bbl
