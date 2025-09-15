@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.29)  14 SEP 2025 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.29)  15 SEP 2025 10:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1213,7 +1213,6 @@ Underfull \hbox (badness 10000) detected at line 389
 \T1/lmss/m/n/7 .
  []
 
-[2]
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
 (Font)              using `T1/lmss/b/n' instead on input line 390.
@@ -1223,30 +1222,30 @@ Underfull \hbox (badness 10000) detected at line 390
 \T1/lmss/m/n/7 .
  []
 
-[3] (./CV_TTony.aux)
+[2] [3] (./CV_TTony.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `CV_TTony.out' has not changed.
-(rerunfilecheck)             Checksum: 20C0ED2E6014D1441BEF48396260EAC5;3378.
+(rerunfilecheck)             Checksum: C694D3AA8BEAE6DE55E5740BE2527878;3421.
 Package logreq Info: Writing requests to 'CV_TTony.run.xml'.
 \openout1 = `CV_TTony.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36766 strings out of 474222
- 710753 string characters out of 5748733
- 1970975 words of memory out of 5000000
+ 36762 strings out of 474222
+ 710707 string characters out of 5748733
+ 1969975 words of memory out of 5000000
  58310 multiletter control sequences out of 15000+600000
- 615018 words of font info for 102 fonts, out of 8000000 for 9000
+ 614816 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,93p,1202b,1783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on CV_TTony.pdf (3 pages, 268313 bytes).
+Output written on CV_TTony.pdf (3 pages, 267473 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 500000)
  27405 words of extra memory for PDF output out of 29859 (max. 10000000)
 
