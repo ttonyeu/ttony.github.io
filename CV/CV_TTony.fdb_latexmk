@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber CV_TTony"] 1757879181.37821 "CV_TTony.bcf" "CV_TTony.bbl" "CV_TTony" 1762084097.65185 0
-  "CV_TTony.bcf" 1762084097.46348 106968 03766b737566bff9c582cf74b7f5566a "pdflatex"
-  "literatur-cv.bib" 1757879177.2756 2459 2dc33c4b21b0376ce788ff87a9df0564 ""
+["biber CV_TTony"] 1768984594.62635 "CV_TTony.bcf" "CV_TTony.bbl" "CV_TTony" 1768984597.44368 0
+  "CV_TTony.bcf" 1768984597.36856 106968 03766b737566bff9c582cf74b7f5566a "pdflatex"
+  "literatur-cv.bib" 1768984594.31702 2827 afa2e470c6b8e44db192d89aec89c48e ""
   (generated)
   "CV_TTony.bbl"
   "CV_TTony.blg"
   (rewritten before read)
-["pdflatex"] 1762084094.98323 "/home/thomas-up/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" "CV_TTony.pdf" "CV_TTony" 1762084097.65247 0
+["pdflatex"] 1768984596.41279 "/home/thomas-up/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" "CV_TTony.pdf" "CV_TTony" 1768984597.44392 0
   "/etc/texmf/web2c/texmf.cnf" 1748515424.35695 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/thomas-up/Dokumente/PhD/ttony.github.io/CV/CV_TTony.tex" 1762084094.65052 18449 abbf84c6c0760aa3a1488bd008b467e7 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -256,10 +256,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1748515453.84954 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1748515575 8214035 781b53d629bf088639cf4c9535025eaa ""
-  "CV_TTony.aux" 1762084097.45548 3171 f6f71e300abc77636148a7f38d607503 "pdflatex"
-  "CV_TTony.bbl" 1757879182.21659 7973 93f21ca84263ddc98197e90e8009ed29 "biber CV_TTony"
-  "CV_TTony.out" 1762084097.45848 3426 c2d66ecc60f4de9a930ca44843705086 "pdflatex"
-  "CV_TTony.run.xml" 1762084097.4655 2400 4bbbe336cd771da252d3dd6a824ab9ef "pdflatex"
+  "CV_TTony.aux" 1768984597.36556 3386 97091ac436cede1ed16a88227e89b91a "pdflatex"
+  "CV_TTony.bbl" 1768984595.22724 9195 e28616c6a602945cc804a99572259fc3 "biber CV_TTony"
+  "CV_TTony.out" 1768984597.36656 3527 9cfc17a705e1c938a2e5097b86a5c19b "pdflatex"
+  "CV_TTony.run.xml" 1768984597.37062 2400 4bbbe336cd771da252d3dd6a824ab9ef "pdflatex"
   "CV_TTony.tex" 1762084094.65052 18449 abbf84c6c0760aa3a1488bd008b467e7 ""
   (generated)
   "CV_TTony.aux"

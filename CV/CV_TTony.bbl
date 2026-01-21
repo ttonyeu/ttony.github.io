@@ -19,6 +19,39 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{T6}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=7b2ecb7d02b5bb14fae90edc25505639}{%
+           family={Riedler},
+           familyi={R\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
+           family={{Tony}},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7302d3f4689421276090dff786780583}
+      \strng{fullhash}{7302d3f4689421276090dff786780583}
+      \strng{bibnamehash}{7302d3f4689421276090dff786780583}
+      \strng{authorbibnamehash}{7302d3f4689421276090dff786780583}
+      \strng{authornamehash}{7302d3f4689421276090dff786780583}
+      \strng{authorfullhash}{7302d3f4689421276090dff786780583}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.DG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Scalar-rigid submersions are Riemannian products}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2601.14117
+      \endverb
+      \keyw{preprint}
+    \endentry
     \entry{T5}{incollection}{}
       \name{author}{1}{}{%
         {{hash=52bb7ea896f396e3b70e3829a74da0bc}{%
@@ -59,8 +92,8 @@
       \strng{editornamehash}{d3768b4fc3abfe1c32bfd3fc12ac5f54}
       \strng{editorfullhash}{4167973d47f689967ea321d24ff2557a}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Oberwolfach Report No. 30/2025}
@@ -85,8 +118,8 @@
       \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{math.DG}
@@ -119,8 +152,8 @@
       \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
       \field{extraname}{3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{math.DG}
@@ -162,8 +195,8 @@
       \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
       \field{extraname}{4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://ttony.eu/documents/thesis-master.pdf}}
@@ -191,8 +224,8 @@
       \strng{authornamehash}{52bb7ea896f396e3b70e3829a74da0bc}
       \strng{authorfullhash}{52bb7ea896f396e3b70e3829a74da0bc}
       \field{extraname}{5}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://ttony.eu/documents/thesis-state-exam.pdf}}
