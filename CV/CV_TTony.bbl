@@ -97,10 +97,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Oberwolfach Report No. 30/2025}
-      \field{note}{\url{https://publications.mfo.de/handle/mfo/4293} (to appear)}
       \field{title}{Scalar Curvature Rigidity and the Higher Mapping Degree}
       \field{year}{2025}
       \true{nocite}
+      \verb{doi}
+      \verb 10.14760/OWR-2025-30
+      \endverb
       \keyw{report}
     \endentry
     \entry{T4}{article}{}
