@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  11 AUG 2026 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  11 AUG 2026 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1247,30 +1247,30 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (.latex/CV_TTony.aux)
 \openout1 = `CV_TTony.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 235.
-LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 242.
+LaTeX Font Info:    ... okay on input line 242.
 
 Info: mathml file CV_TTony-mathml does not exist
 Info: reading mathml file CV_TTony-luamml-mathml
 (.latex/CV_TTony-luamml-mathml.html)
 Info: Activating mathml support
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 235.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 242.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1292,13 +1292,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 235.
-Package microtype Info: Applying patch `item' on input line 235.
-Package microtype Info: Applying patch `toc' on input line 235.
-Package microtype Info: Applying patch `eqnum' on input line 235.
-Package microtype Info: Applying patch `footnote' on input line 235.
-Package microtype Info: Applying patch `verbatim' on input line 235.
-LaTeX Info: Redefining \microtypesetup on input line 235.
+LaTeX Info: Redefining \microtypecontext on input line 242.
+Package microtype Info: Applying patch `item' on input line 242.
+Package microtype Info: Applying patch `toc' on input line 242.
+Package microtype Info: Applying patch `eqnum' on input line 242.
+Package microtype Info: Applying patch `footnote' on input line 242.
+Package microtype Info: Applying patch `verbatim' on input line 242.
+LaTeX Info: Redefining \microtypesetup on input line 242.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1362,8 +1362,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CV_TTony.bbl' found.
  (.latex/CV_TTony.bbl)
-Package biblatex Info: Reference section=0 on input line 235.
-Package biblatex Info: Reference segment=0 on input line 235.
+Package biblatex Info: Reference section=0 on input line 242.
+Package biblatex Info: Reference segment=0 on input line 242.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1399,99 +1399,99 @@ Package biblatex Info: Reference segment=0 on input line 235.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 235.
+Package hyperref Info: Link coloring ON on input line 242.
 \pagenumberwidth=\skip145
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 235.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 242.
 Package babel Info: Main language set to 'american'.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <20.74> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 251.
-LaTeX Font Info:    Trying to load font information for U+fontawesome6brands1 on input line 251.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 258.
+LaTeX Font Info:    Trying to load font information for U+fontawesome6brands1 on input line 258.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome6/ufontawesome6brands1.fd)
 LaTeX Font Info:    Font shape `U/fontawesome6brands1/solid/n' in size <9> not available
-(Font)              Font shape `U/fontawesome6brands1/regular/n' tried instead on input line 251.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 251.
+(Font)              Font shape `U/fontawesome6brands1/regular/n' tried instead on input line 258.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 258.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 251.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 258.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 251.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 258.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 251.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 258.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 251.
+(Font)              <10> on input line 258.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 251.
+(Font)              <7> on input line 258.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 251.
+(Font)              <5> on input line 258.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 259.
-LaTeX Font Info:    Trying to load font information for U+fontawesome6free0 on input line 366.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 266.
+LaTeX Font Info:    Trying to load font information for U+fontawesome6free0 on input line 373.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/fontawesome6/ufontawesome6free0.fd) [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome6/fa6free1.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome6/fa6brands1.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome6/fa6free0.enc}]
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 543.
+(Font)              using `T1/lmss/b/n' instead on input line 550.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 543.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 550.
 
-Underfull \hbox (badness 10000) detected at line 543
+Underfull \hbox (badness 10000) detected at line 550
 \T1/lmss/m/n/7 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 551.
+(Font)              using `T1/lmss/b/n' instead on input line 558.
 
 
-Underfull \hbox (badness 10000) detected at line 551
+Underfull \hbox (badness 10000) detected at line 558
 \T1/lmss/m/n/7 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 566.
+(Font)              using `T1/lmss/b/n' instead on input line 573.
 
 
-Underfull \hbox (badness 10000) detected at line 566
+Underfull \hbox (badness 10000) detected at line 573
 \T1/lmss/m/n/7 .
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 623.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 630.
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 643.
+(Font)              using `T1/lmss/b/n' instead on input line 650.
 
 
-Underfull \hbox (badness 10000) detected at line 647
+Underfull \hbox (badness 10000) detected at line 654
 \T1/lmss/m/n/7 .
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 643.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 650.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 643.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 650.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 643.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 650.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1502,29 +1502,29 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 649.
+(Font)              using `T1/lmss/b/n' instead on input line 656.
 
 
-Underfull \hbox (badness 10000) detected at line 653
+Underfull \hbox (badness 10000) detected at line 660
 \T1/lmss/m/n/7 .
  []
 
 [2]
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 655.
+(Font)              using `T1/lmss/b/n' instead on input line 662.
 
 
-Underfull \hbox (badness 10000) detected at line 659
+Underfull \hbox (badness 10000) detected at line 666
 \T1/lmss/m/n/7 .
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 661.
+(Font)              using `T1/lmss/b/n' instead on input line 668.
 
 
-Underfull \hbox (badness 10000) detected at line 665
+Underfull \hbox (badness 10000) detected at line 672
 \T1/lmss/m/n/7 .
  []
 
@@ -1561,13 +1561,13 @@ Package logreq Info: Writing requests to 'CV_TTony.run.xml'.
 Here is how much of TeX's memory you used:
  49173 strings out of 467159
  1069877 string characters out of 5409224
- 2043481 words of memory out of 5000000
+ 2042399 words of memory out of 5000000
  77554 multiletter control sequences out of 15000+600000
  705664 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,12n,94p,1231b,1855s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome6/FontAwesome6Brands-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome6/FontAwesome6Free-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome6/FontAwesome6Free-Solid.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/pdftex/pdftexspace.pfb>
-Output written on .latex/CV_TTony.pdf (3 pages, 253030 bytes).
+Output written on .latex/CV_TTony.pdf (3 pages, 252994 bytes).
 PDF statistics:
  926 PDF objects out of 1000 (max. 8388607)
  865 compressed objects within 9 object streams

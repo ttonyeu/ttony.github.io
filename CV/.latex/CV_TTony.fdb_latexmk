@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber .latex/CV_TTony"] 1786474399.2218 ".latex/CV_TTony.bcf" ".latex/CV_TTony.bbl" ".latex/CV_TTony" 1786474518.52294 0
-  ".latex/CV_TTony.bcf" 1786474518.2587 107817 09708f789512bc12aa5037e3f0979227 "pdflatex"
+["biber .latex/CV_TTony"] 1786474399.2218 ".latex/CV_TTony.bcf" ".latex/CV_TTony.bbl" ".latex/CV_TTony" 1786475760.0089 0
+  ".latex/CV_TTony.bcf" 1786475759.83731 107817 09708f789512bc12aa5037e3f0979227 "pdflatex"
   "literatur-cv.bib" 1786474398.86808 2858 b498e7d5ffc19d62ef91e5f6178419ea ""
   (generated)
   ".latex/CV_TTony.bbl"
   ".latex/CV_TTony.blg"
   (rewritten before read)
-["pdflatex"] 1786474510.81949 "/home/thomas/Dokumente/Uni/ttony.github.io/CV/CV_TTony.tex" "CV_TTony.pdf" "CV_TTony" 1786474518.52344 0
-  ".latex/CV_TTony-luamml-mathml.html" 1786474501.85441 69 dff1a319608c64dd7f0cf226884b2c1d ""
-  ".latex/CV_TTony.aux" 1786474517.88968 34351 b2cb63f169907000977b8d9a6c3cc51a "pdflatex"
+["pdflatex"] 1786475755.57207 "/home/thomas/Dokumente/Uni/ttony.github.io/CV/CV_TTony.tex" "CV_TTony.pdf" "CV_TTony" 1786475760.00941 0
+  ".latex/CV_TTony-luamml-mathml.html" 1786475750.31511 69 dff1a319608c64dd7f0cf226884b2c1d ""
+  ".latex/CV_TTony.aux" 1786475759.6143 34351 a44c330de49278495908e5155b2ad44e "pdflatex"
   ".latex/CV_TTony.bbl" 1786474401.44643 10953 674bc93b31f9799373e675057ee047f8 "biber .latex/CV_TTony"
-  ".latex/CV_TTony.run.xml" 1786474518.26169 2400 4bbbe336cd771da252d3dd6a824ab9ef "pdflatex"
-  "/home/thomas/Dokumente/Uni/ttony.github.io/CV/CV_TTony.tex" 1786474481.77087 16361 5e5c4688760b7f382c108df284486142 ""
+  ".latex/CV_TTony.run.xml" 1786475759.8394 2400 4bbbe336cd771da252d3dd6a824ab9ef "pdflatex"
+  "/home/thomas/Dokumente/Uni/ttony.github.io/CV/CV_TTony.tex" 1786475738.38885 16502 b4625a81c69f79f872d9f584ff93ea29 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome6/fa6brands1.enc" 1746389010 2689 47bc09928c611585699e3663ab5bdaa1 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome6/fa6free0.enc" 1746389010 3559 5aaf551db22d90c460e83326f476f5c4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome6/fa6free1.enc" 1746389010 3397 26707aca1c94039c601bbbe9ca0bfcd2 ""
@@ -313,7 +313,7 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1786419158 5573038 ad3e0d8c63dbec7957113a2386d66888 ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1786419301 3656788 8c61b29b76e0775c3fc1a889da98a527 ""
   "/usr/local/texlive/2026/texmf.cnf" 1786419147.02961 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "CV_TTony.tex" 1786474481.77087 16361 5e5c4688760b7f382c108df284486142 ""
+  "CV_TTony.tex" 1786475738.38885 16502 b4625a81c69f79f872d9f584ff93ea29 ""
   (generated)
   ".latex/CV_TTony.aux"
   ".latex/CV_TTony.bcf"
