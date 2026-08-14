@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  11 AUG 2026 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.10)  14 AUG 2026 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1543,8 +1543,8 @@ MathML statistic
 ==> 0 MathML AF attached
 
 Package tagpdf Info: Finalizing the tagging structure:
-(tagpdf)             Writing out ~581 structure objects
-(tagpdf)             with ~332 'MC' leaf nodes.
+(tagpdf)             Writing out ~580 structure objects
+(tagpdf)             with ~330 'MC' leaf nodes.
 (tagpdf)             Be patient if there are lots of objects!
 
 Package tagpdf Info: writing ParentTree
@@ -1559,18 +1559,18 @@ Package logreq Info: Writing requests to 'CV_TTony.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49173 strings out of 467159
- 1069877 string characters out of 5409224
- 2042399 words of memory out of 5000000
- 77554 multiletter control sequences out of 15000+600000
- 705664 words of font info for 110 fonts, out of 8000000 for 9000
+ 49160 strings out of 467159
+ 1069544 string characters out of 5409224
+ 2041575 words of memory out of 5000000
+ 77543 multiletter control sequences out of 15000+600000
+ 705528 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,12n,94p,1231b,1855s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome6/FontAwesome6Brands-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome6/FontAwesome6Free-Regular.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/fontawesome6/FontAwesome6Free-Solid.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/pdftex/pdftexspace.pfb>
-Output written on .latex/CV_TTony.pdf (3 pages, 252994 bytes).
+Output written on .latex/CV_TTony.pdf (3 pages, 252894 bytes).
 PDF statistics:
- 926 PDF objects out of 1000 (max. 8388607)
- 865 compressed objects within 9 object streams
+ 924 PDF objects out of 1000 (max. 8388607)
+ 863 compressed objects within 9 object streams
  37 named destinations out of 1000 (max. 500000)
- 27909 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 27905 words of extra memory for PDF output out of 29859 (max. 10000000)
 

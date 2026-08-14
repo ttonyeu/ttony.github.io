@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is '.latex/CV_TTony.blg'
-[149] biber:342> INFO - === Tue Aug 11, 2026, 13:53:21
-[170] Biber.pm:421> INFO - Reading '.latex/CV_TTony.bcf'
-[265] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[285] Biber.pm:4487> INFO - Processing section 0
-[298] Biber.pm:4678> INFO - Looking for bibtex file 'literatur-cv.bib' for section 0
-[299] bibtex.pm:1713> INFO - LaTeX decoding ...
-[314] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur-cv.bib'
-[405] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[405] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[405] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[405] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[416] bbl.pm:676> INFO - Writing '.latex/CV_TTony.bbl' with encoding 'UTF-8'
-[420] bbl.pm:779> INFO - Output to .latex/CV_TTony.bbl
+[113] biber:342> INFO - === Fri Aug 14, 2026, 15:20:05
+[134] Biber.pm:421> INFO - Reading '.latex/CV_TTony.bcf'
+[229] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[246] Biber.pm:4487> INFO - Processing section 0
+[259] Biber.pm:4678> INFO - Looking for bibtex file 'literatur-cv.bib' for section 0
+[260] bibtex.pm:1713> INFO - LaTeX decoding ...
+[274] bibtex.pm:1519> INFO - Found BibTeX data source 'literatur-cv.bib'
+[366] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[366] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[366] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[366] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[378] bbl.pm:676> INFO - Writing '.latex/CV_TTony.bbl' with encoding 'UTF-8'
+[382] bbl.pm:779> INFO - Output to .latex/CV_TTony.bbl
